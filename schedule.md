@@ -84,7 +84,7 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Jan 20 -->
   <td id="2020-1-20" class="date"><b>Week 1</b></td>
   <td class="holiday">Jan 20<br/>
-	<b>MLK Day:</b> No class</td>
+	<b>MLK Day:</b> NO CLASS</td>
   <td class="nodue">Jan 23</td>
 </tr>
 <tr> <!-- week of Jan 27 -->
