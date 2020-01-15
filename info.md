@@ -1,0 +1,60 @@
+---
+layout: page
+title: "Course Information"
+permalink: /info.html
+---
+
+## Syllabus
+
+The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Spring2020/CS_571ChengY.html).
+
+## Instructor's office hours
+
+* Where: Engineering 5324
+* When: M 3 pm - 4 pm
+
+## GTA & office hours
+
+* TBD
+* Email: TBD
+* Where: TBD
+* When: TBD
+
+## Prerequisite
+
+Grade of C or better in *CS310, CS 367, and CS 465*. All students
+**MUST** be comfortable with programming in the C language. This is a
+strong requirement. 
+
+## Textbooks
+
+The only required textbook for this class is OSTEP, which is an
+excellent resource for learning OS. The material of this class is
+based on OSTEP, which is **publicly available** at: 
+
+* [Operating Systems: Three Easy Pieces (OSTEP)](http://pages.cs.wisc.edu/~remzi/OSTEP/), by Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau, Aug, 2018 (v 1.00)
+
+Recommended textbooks but not required:
+
+* Operating Systems Principles and Practice, by Thomas Anderson and Michael Dahlin, Second Edition. ISBN: 978-0-9856735-2-9, Recursive Books, Ltd.
+* Operating System Concepts, by Silberschatz, Galvin and Gagne (9th Edition, John Wiley & Sons 2012, ISBN 978-1-118-06333-0). 
+
+## Grading policy
+
+Your grade will be calculated as follows:
+
+* 45% projects
+* 10% homeworks
+* 15% midterm exam
+* 30% final exam
+
+## Grading rules
+
+The final grade is computed according to the following rules:
+
+* A+: >= 95%; A: \[90%, 95%); A-: \[85%, 90%)
+* B+: \[80%, 85%); B: \[75%, 80%); B-: \[70%, 75%)
+* C+: \[66%, 70%); C: \[63%, 66%); C-: \[60%, 63%)
+* D+: \[56%, 60%); D:\[53%, 56%); D-: \[50%, 53%)
+* F: < 50%
+

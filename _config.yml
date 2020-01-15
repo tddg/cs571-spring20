@@ -1,0 +1,32 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               'CS 571'
+tagline:             'Operating Systems (Spring 2020)'
+description:         'CS 571: Operating Systems<br>George Mason University'
+url:                 ''
+baseurl:             'https://tddg.github.io/cs675-spring20'
+
+# yue's hack
+plugins:
+  - jekyll-paginate
+#paginate_path: "page:num"
+# end of yue's hack
+
+paginate:            5
+
+# About/contact
+author:
+  name:              Yue Cheng
+  url:               https://cs.gmu.edu/~yuecheng
+  email:             yuecheng@gmu.edu
+
+# Custom vars
+version:             1.0.0
+
+
+gem:				 liquid
