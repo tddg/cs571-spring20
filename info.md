@@ -39,6 +39,17 @@ Recommended textbooks but not required:
 * Operating Systems Principles and Practice, by Thomas Anderson and Michael Dahlin, Second Edition. ISBN: 978-0-9856735-2-9, Recursive Books, Ltd.
 * Operating System Concepts, by Silberschatz, Galvin and Gagne (9th Edition, John Wiley & Sons 2012, ISBN 978-1-118-06333-0). 
 
+## Course projects
+
+Here is a tentative list of projects:
+
+* Project 0 (Warm-up project): Practice C programming by implementing four command line tools;
+* Project 1a: Implement a UNIX shell application using C;
+* Project 1b: OS/161 synchronization;
+* Project 2a: OS/161 system calls;
+* Project 2b: OS/161 multi-level feedback queue scheduling;
+* Project 3: Implement a MapReduce application using C.
+
 ## Grading policy
 
 Your grade will be calculated as follows:
