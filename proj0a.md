@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project 0a"
-permalink: /lab1.html
+permalink: /proj0a.html
 ---
 
 # Project 0a: Unix Utilities (Warm-up for Systems Programming with C)
