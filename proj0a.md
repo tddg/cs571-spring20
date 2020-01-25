@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "Project 0a"
+title: "Project 0a: Unix Utilities (Warm-up for Systems Programming with C)"
 permalink: /proj0a.html
 ---
-
-# Project 0a: Unix Utilities (Warm-up for Systems Programming with C)
 
 ## Unix Utilities
 
@@ -123,9 +121,7 @@ succeeded. Reading the man page tells you the details of what is returned when
 an error is encountered; in this case, the macOS man page says:
 
 ```
-Upon successful completion fopen(), fdopen(), freopen() and fmemopen() return
-a FILE pointer.  Otherwise, NULL is returned and the global variable errno is
-set to indicate the error. 
+Upon successful completion fopen(), fdopen(), freopen() and fmemopen() return a FILE pointer.  Otherwise, NULL is returned and the global variable errno is set to indicate the error. 
 ```
 
 Thus, as the code above does, please check that **fopen()** does not return
@@ -301,8 +297,5 @@ about the C library, but at some point, you've just got to **read
 documentation** to learn what is available. Why not now, when you are
 young? Or, if you are old, why not now, before it's ... ahem ... too
 late?
-
-
-
 
 

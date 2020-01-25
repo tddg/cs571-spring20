@@ -55,10 +55,10 @@ Here is a tentative list of projects:
 
 Your grade will be calculated as follows:
 
-* 45% projects
+* 50% projects
 * 10% homeworks
-* 15% midterm exam
-* 30% final exam
+* 20% midterm exam
+* 20% final exam
 
 ## Grading rules
 
