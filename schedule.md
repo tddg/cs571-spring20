@@ -90,8 +90,9 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Jan 27 -->
   <td id="2020-1-27" class="date"><b>Week 2</b></td>
   <td class="lecture">Jan 27<br/>
-	<b>Lec 1:</b> Intrduction, process abstraction<br/>
-	<span class="assignment"><a href="./proj0.html">Proj 0</a> out</span></td>
+	<b>Lec 1:</b> Introduction, process abstraction<br/>
+	<span class="assignment"><a href="./proj0a.html">Proj 0a</a> and 
+		<a href="./proj0b.html">Proj 0b</a> out</span></td>
   <td class="nodue">Jan 30</td>
 </tr>
 <tr> <!-- week of Feb 3 -->
@@ -99,7 +100,8 @@ The course schedule is tentative and subject to change.
   <td class="lecture">Feb 3<br/>
 	<b>Lec 2:</b> LDE, thread abstraction</td>
   <td class="deadline">Feb 6<br/>
-	<span class="hwdue"><a href="./proj0.html">Proj 0</a> due</span><br/>
+	<span class="hwdue"><a href="./proj0a.html">Proj 0a</a> and 
+		<a href="./proj0b.html">Proj 0b</a> due</span><br/>
 	<span class="assignment"><a href="./proj1.html">Proj 1</a> out</span></td>
 </tr>
 <tr> <!-- week of Feb 10 -->
