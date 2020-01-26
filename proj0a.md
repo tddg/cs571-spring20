@@ -30,9 +30,10 @@ to your private GitLab repo for grading.
 **This project is to be done by yourself.**
 
 Tests: Read more about the tests, including how to run them, by
-reading the file ~cs537-1/tests/README on any lab machine (i.e., type
-cat ~cs537-1/tests/README to see what to do, or better yet, use
-my-cat ...?). Good luck!
+reading the file
+[linux-utilities/tester/README](https://git.gmu.edu/cs571-proj/linux-utilities/blob/master/tester/README.md)
+(i.e., type cat linux-utilities/tester/README.md to see what
+to do, or better yet, use mcat ...?). Good luck!
 
 ## Linux Utilities
 
