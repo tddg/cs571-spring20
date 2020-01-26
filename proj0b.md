@@ -4,6 +4,12 @@ title: "Project 0b: Intro to OS/161"
 permalink: /proj0b.html
 ---
 
+## Important Dates and Other Stuff
+
+**Due** Thursday, 02/06, midnight.
+
+**This project can be done in a group of up to two students.** However, if you want to do it alone, it's fine too.
+
 ## Introduction
 
 This assignment will familiarize you with OS/161, the operating
