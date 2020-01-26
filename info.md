@@ -11,7 +11,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Spring2020
 ## Instructor's office hours
 
 * Where: Engineering 5324
-* When: M 3 pm - 4 pm
+* When: M 1:30 pm - 2:30 pm
 
 ## GTA & office hours
 
