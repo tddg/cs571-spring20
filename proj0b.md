@@ -461,7 +461,7 @@ session `newbuild.script`.
 	% mv typescript ~/os161/asst0/gdb.script
 	```
 
-## Practice wth Gib
+## Practice wth Git
 
 In order to build your kernel above, you already checked out a
   source tree. Now we'll demonstrate some of the most common features of
