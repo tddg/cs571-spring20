@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 0a: Unix Utilities (Systems Programming Warm-up Project)"
+title: "Project 0a: Linux Utilities (Systems Programming Warm-up Project)"
 permalink: /proj0a.html
 ---
 
