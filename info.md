@@ -16,7 +16,7 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Spring2020
 ## GTA & office hours
 
 * Abhishek Roy
-* Email: [aroy6 AATT masonlive DOT gmu DOT edu](mailto:aroy6@masonlive.gmu.edu)
+* Email: [aroy6@masonlive.gmu.edu](mailto:aroy6@masonlive.gmu.edu)
 * Where: TBD
 * When: TBD
 
