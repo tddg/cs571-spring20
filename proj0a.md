@@ -4,7 +4,7 @@ title: "Project 0a: Unix Utilities (Warm-up for Systems Programming with C)"
 permalink: /proj0a.html
 ---
 
-## Unix Utilities
+## Linux Utilities
 
 **Before beginning:** Read this [lab
 tutorial](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-tutorial.pdf); it
