@@ -404,23 +404,23 @@ the script) you need to run `make` in the top of the source tree
 
 ## Practice modifying your kernel (hand me in)
 
-1. Create a file called <tt>main/hello.c</tt> (download the
+1. Create a file called `main/hello.c` (download the
 template <a href="hello.c">hello.c</a>).
 
 2. In this file, write a function called <tt>hello</tt> that uses
-<tt>kprintf()</tt> to print "Hello World\n".
+`kprintf()` to print `"Hello World\n"`.
 
-3. Edit <tt>main/main.c</tt> and add a call (in a suitable place) to
-<tt>hello()</tt>.
+3. Edit `main/main.c` and add a call (in a suitable place) to
+`hello()`.
 
 4. Make your kernel build again. You will need to edit
-<tt>conf/conf.kern</tt>, reconfig, and rebuild.
+`conf/conf.kern`, reconfig, and rebuild.
 
 5. Make sure that your new kernel runs and displays the new message.
 
 6. Once your kernel builds, script a session demonstrating a config
 and build of your modified kernel.  Call the output of this script
-session <tt>newbuild.script</tt>.
+session `newbuild.script`.
 
 	```
 	% mv typescript ~/os161/asst0/newbuild.script
@@ -455,7 +455,7 @@ session <tt>newbuild.script</tt>.
 	```
 
 3. End your script session.  Rename your script output to
-<tt>gdb.script</tt>.
+`gdb.script`.
 
 	```
 	% mv typescript ~/os161/asst0/gdb.script
@@ -469,7 +469,7 @@ In order to build your kernel above, you already checked out a
   everything except the editing sessions; do those in a different window).
   Call this file <tt>git-use.script</tt>.
 
-1. Edit the file <tt>kern/main/main.c</tt>.  Add a comment with your name 
+1. Edit the file `kern/main/main.c`.  Add a comment with your name 
 	in it.
 
 2. Execute
@@ -487,7 +487,7 @@ In order to build your kernel above, you already checked out a
 	% git push 
 	```
 
-4. Remove the first 100 lines of <tt>main.c</tt>.
+4. Remove the first 100 lines of `main.c`.
 
 5. Try to build your kernel (this ought to fail).
 
@@ -499,7 +499,7 @@ In order to build your kernel above, you already checked out a
 
 7. Try to build your tree again.
 
-8. Now, examine the `DEBUG` macro in <tt>lib.h</tt>.  
+8. Now, examine the `DEBUG` macro in `lib.h`.  
 	Based on your earlier reading of the operating system, add **five** useful 
 	debugging messages to your operating system.
 
@@ -529,5 +529,5 @@ In order to build your kernel above, you already checked out a
 
 You will submit your assignment in BlackBoard.  The submission will
 consist of a properly tar'd and compressed (gnuzipped) file of your
-<tt>asst0</tt> directory.  Follow the instructions on the main page.
+``asst0` directory.  Follow the instructions on the main page.
 
