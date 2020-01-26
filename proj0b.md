@@ -296,13 +296,13 @@ machine-specific constants and functions.
  will find one subdirectory for each kernel you want to build.  In a
  real installation, these will often correspond to things like a debug
  build, a profiling build, etc.  In our world, each build directory will
- correspond to a programming assignment, e.g., ASST2, ASST3, etc. These
+ correspond to a programming assignment, e.g., `ASST2`, `ASST3`, etc. These
  directories are created when you configure a kernel (described in the
  next section). This directory and build organization is typical of UNIX
  installations and is not universal across all operating systems.
 
-<tt>kern/conf:</tt> <tt>config</tt> is the script that takes a config file, 
- like ASST0, and creates the corresponding build directory.  So, in order 
+<tt>kern/conf:</tt> `config` is the script that takes a config file, 
+ like `ASST0`, and creates the corresponding build directory.  So, in order 
  to build a kernel, you should:
 
 ```
@@ -316,8 +316,8 @@ machine-specific constants and functions.
 
 This will create the ASST0 build directory and then actually build a
 kernel in it.  Note that you should specify the complete pathname 
-<tt>./config</tt> when you configure OS/161.  If you omit the
-<tt>./</tt>, you may end up running the configuration command for the 
+`./config` when you configure OS/161.  If you omit the
+`./`, you may end up running the configuration command for the 
 system on which you are building OS/161, and that is almost guaranteed 
 to produce rather strange results!
 
@@ -327,14 +327,14 @@ Unless you are really interested, you can safely
 ignore most of this directory.
 
 <tt>kern/include:</tt>
-These are the include files that the kernel needs.  The <tt>kern</tt> 
+These are the include files that the kernel needs.  The `kern` 
 subdirectory contains include files that are visible not only to the 
 operating system itself, but also to user-level programs.  (Think about 
-why it's named "kern" and where the files end up when installed.)
+why it's named "`kern`" and where the files end up when installed.)
 
 **Question 5.** How many hardclock interrupts per second are possible in the fastest speed? 
 
-**Question 6.** How large are OS/161 pids? How many processes do you think OS/161 could support as you have it now? A sentence or two of justification is fine. 
+**Question 6.** How large are OS/161 `pids`? How many processes do you think OS/161 could support as you have it now? A sentence or two of justification is fine. 
 
 **Question 7.** What is the system call number for a reboot? Is this value available to userspace programs? Why or why not. 
 
