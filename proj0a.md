@@ -4,7 +4,7 @@ title: "Project 0a: Unix Utilities (Warm-up for Systems Programming with C)"
 permalink: /proj0a.html
 ---
 
-## GitLab repo, Important Dates, and Other Stuff
+## GitLab repo
 
 We supply you with a testing framework that is written using bash
 script.  You'll fetch (fork) the initial software with
@@ -22,6 +22,8 @@ Don't clone the git repo directly; instead, as described in [git setup](??)
 first fork that repo into your own private repo on our Mason GitLab server,
 then clone from that. You'll commit you changes locally and push them
 to your private GitLab repo for grading. 
+
+## Important Dates and Other Stuff
 
 **Due** Thursday, 02/06, midnight.
 
