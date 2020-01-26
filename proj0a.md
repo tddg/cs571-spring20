@@ -4,7 +4,7 @@ title: "Project 0a: Linux Utilities (Systems Programming Warm-up Project)"
 permalink: /proj0a.html
 ---
 
-## GitLab repo
+## GitLab Repo
 
 We supply you with a testing framework that is written using bash
 script.  You'll fetch (fork) the initial software with
@@ -18,7 +18,7 @@ useful.
 
 The URL for the course git repository is
 [https://git.gmu.edu/cs571-proj/linux-utilities](https://git.gmu.edu/cs571-proj/linux-utilities).
-Don't clone the git repo directly; instead, as described in [git setup](??)
+Don't clone the git repo directly; instead, as described in [GitLab Setup](./gitlab_setup.html)
 first fork that repo into your own private repo on our Mason GitLab server,
 then clone from that. You'll commit you changes locally and push them
 to your private GitLab repo for grading. 

@@ -10,6 +10,10 @@ permalink: /proj0b.html
 
 **This project can be done in a group of up to two students.** However, if you want to do it alone, it's fine too.
 
+Please Email the composition of your team (for OS/161 assignments) to your TA ASAP. Team size upper limit: 2 people. 
+You can use this [Google Form](https://forms.gle/oFYvW8kiy82phSFp7).
+
+
 ## Introduction
 
 This assignment will familiarize you with OS/161, the operating
@@ -85,7 +89,7 @@ is imperative that you start becoming comfortable with Git.
 Git is very powerful, but for CS571 you only need to know a subset of
 its functionality.  To learn how to setup a GitLab repo and clone
 your os161 project in your student.cs computing environment, follow
-the instructions <a href="os161_gitlab_setup.html">here</a>.
+the instructions <a href="gitlab_setup.html">here</a>.
 
 ## About GDB
 
@@ -112,11 +116,9 @@ operating system, not the machine simulator.  Type
 % cs161-gdb sys161
 ```
 
-and you are debugging the simulator. Detailed instructions
-on how to debug your operating system and a brief introduction to GDB are
-contained in the page 
-<a href="http://cs.gmu.edu/~dbarbara/CS471/WorkingWith161.html"> Working with 161
-</a>.
+and you are debugging the simulator. 
+
+
 
 ## Setting up your account and getting the distribution
 
@@ -132,11 +134,17 @@ Extract the source code with the following:
 tar -xzf os161-1.11.tar.gz
 ```
 
+Follow [the instructions to install OS/161](./os161_install.html).
+
+
+
 ## Setting up your GitLab repository 
 
-Follow the instructions <a href="os161_gitlab_setup.html">here</a>.
+Follow [the instructions to set up your GitLab account and repositories](./gitlab_setup.html).
 
-## Code Reading (hand me in)
+
+
+## Code reading (hand me in)
 
 One of the challenges of os161 is that you are going to be working with
  a large body of code that was written by someone else.  When doing so,
@@ -173,7 +181,7 @@ These questions are not meant to be tricky -- most of the answers can
  Place the answers to the following questions in a file called
  <tt>~/os161/asst0/code-reading.txt</tt>.
 
-### Top Level Directory
+### Top level directory
 
 The top level directory of many software packages is called 
  <tt>src</tt> or <tt>source</tt>.  The top of the 
@@ -242,7 +250,7 @@ but you should know enough about what's there to be able to get around
 the source tree easily.  The rest of this code walk-through is going to
 concern itself with the kern subtree.
 
-### The Kern Subdirectory
+### The kern subdirectory
 
 Once again, there is a `Makefile`.  This `Makefile` installs header
 files but does not build anything.
@@ -347,7 +355,7 @@ Now it is time to build a kernel.  As described above, you will need
  to configure a kernel and then build it. The script
 
 ```
-% wget http://mason.gmu.edu/~yuecheng/build-asst0.php
+% wget http://cs.gmu.edu/~yuecheng/build-asst0.php
 % php -f build-asst0.php 
 ```
 
