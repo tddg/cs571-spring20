@@ -4,6 +4,34 @@ title: "Project 0a: Unix Utilities (Warm-up for Systems Programming with C)"
 permalink: /proj0a.html
 ---
 
+## GitLab repo, Important Dates, and Other Stuff
+
+We supply you with a testing framework that is written using bash
+script.  You'll fetch (fork) the initial software with
+[git](https://git-scm.com/) (a version control system).  To learn
+more about git, look at the [git user's
+manual](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/user-manual.html),
+or, if you are already familiar with other version control systems,
+you may find this [CS-oriented overview of
+git](https://eagain.net/articles/git-for-computer-scientists/)
+useful.
+
+The URL for the course git repository is
+[https://git.gmu.edu/cs571-proj/linux-utilities](https://git.gmu.edu/cs571-proj/linux-utilities).
+Don't clone the git repo directly; instead, as described in [git setup](??)
+first fork that repo into your own private repo on our Mason GitLab server,
+then clone from that. You'll commit you changes locally and push them
+to your private GitLab repo for grading. 
+
+**Due** Thursday, 02/06, midnight.
+
+**This project is to be done by yourself.**
+
+Tests: Read more about the tests, including how to run them, by
+reading the file ~cs537-1/tests/README on any lab machine (i.e., type
+cat ~cs537-1/tests/README to see what to do, or better yet, use
+my-cat ...?). Good luck!
+
 ## Linux Utilities
 
 **Before beginning:** Read this [lab
