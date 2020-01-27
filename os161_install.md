@@ -53,11 +53,24 @@ Obtain a copy of the OS/161 by entering:
 % wget https://cs.gmu.edu/~yuecheng/os161-1.11.tar.gz
 ```
 
-Now, extract the source code with the following: 
+Next, extract the source code you just downloaded: 
 
 ```
 % tar -xzf os161-1.11.tar.gz
 ```
+
+Finally issue the module load command to load the `os161` toolchain
+(Zeus currently supports dynamically loadable modules):
+
+```
+% module load sys161/1.14
+```
+
+If you don't want to bother loading the `sys161/1.14` module everytime 
+when you login to Zeus, you can put the command into your `.bash_profile` 
+environmental configuration file.
+
+
 
 If you are planning to use Mason GitLab to manage the OS/161 source
 code, this is the right time to follow
@@ -72,9 +85,17 @@ Step 3 using your working copy.
 Assuming you have already configured your Git repo and cloned
 the GitLab repo under the right directory.
 The next step is to configure OS/161 and compile
-the kernel.
-From the your `$HOME/os161` directory, do the
-following:
+the kernel. For the first time, download the php script from
+the provided link and use it build the kernel:
+
+```
+% wget http://cs.gmu.edu/~yuecheng/build-asst0.php
+% php -f build-asst0.php 
+```
+
+
+Of course, you can manually build your kernel as well. To do so, from
+the your `$HOME/os161` directory, do the following:
 
 ```
 % cd os161-1.11
@@ -113,7 +134,7 @@ order to run.  To obtain one, do this:
 
 ```
 % cd $HOME/os161/root
-% cp /usr/local/sys161-1.14/sys161.conf.sample sys161.conf
+% cp /opt/apps/sys161-1.14/sys161.conf.sample sys161.conf
 ```
 
 Now run your compiled kernel on the
