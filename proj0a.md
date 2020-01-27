@@ -335,8 +335,9 @@ is the same as his mason email ID: `aroy6`).
 	% git commit -am 'the final awesome solution of proj0a: [Your Name] and [Your Mason GID]'
 	```
 
-And that's all. We will check the timestamp for late submission. So
-make sure to submit before the deadline.
+And that's all. We will check the timestamp (your last commit
+timestamp) for late submission. So make sure to submit before the
+deadline.
 
 
 
