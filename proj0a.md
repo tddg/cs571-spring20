@@ -313,11 +313,33 @@ and print out the uncompressed output to standard output using **printf()**.
   **munzip** respectively. 
 * The format of the compressed file must match the description above exactly
   (a 4-byte integer followed by a character for each run).
-* Do note that if multiple files are passed to **mzip*, they are compressed
+* Do note that if multiple files are passed to **mzip**, they are compressed
   into a single compressed output, and when unzipped, will turn into a single
   uncompressed stream of text (thus, the information that multiple files were
   originally input into **mzip** is lost). The same thing holds for
   **munzip**. 
+
+
+## What (and how) to hand in
+
+You will submit your assignment using GitLab. The submission will
+consist of whatever is contianed in your **private**
+`linux-utilities` repository. 
+
+1. You will need to share your **private** repository with our GTA Abhishek (his GitLab ID
+is the same as his mason email ID: `aroy6`).
+
+2. Commit all your changes by typing:
+
+	```
+	% git commit -am 'the final awesome solution of proj0a: [Your Name] and [Your Mason GID]'
+	```
+
+And that's all. We will check the timestamp for late submission. So
+make sure to submit before the deadline.
+
+
+
 
 ## Acknowledgment
 
