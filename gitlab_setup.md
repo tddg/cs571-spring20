@@ -33,7 +33,7 @@ For Linux utilities, shell, and MapReduce projects, make sure you fork
 the original project GitLab repositories and then change the permission
 of the project to **Private**.
 For OS/161,
-Mkae sure you create a **Private** project with the name
+Make sure you create a **Private** project with the name
 `os161-1.11`, and use <a href="https://git-scm.com/">Git</a>
 to keep track of your code editing history.
 
