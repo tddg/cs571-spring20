@@ -4,6 +4,18 @@ title: "Project 0a: Linux Utilities (Systems Programming Warm-up Project)"
 permalink: /proj0a.html
 ---
 
+## Important Dates and Other Stuff
+
+**Due** Thursday, 02/06, midnight.
+
+**This project is to be done by yourself.**
+
+Tests: Read more about the tests, including how to run them, by
+reading the file
+[linux-utilities/tester/README](https://git.gmu.edu/cs571-proj/linux-utilities/blob/master/tester/README.md)
+(i.e., type cat linux-utilities/tester/README.md to see what
+to do, or better yet, use mcat ...?). Good luck!
+
 ## GitLab Repo
 
 We supply you with a testing framework that is written using bash
@@ -18,22 +30,10 @@ useful.
 
 The URL for the course git repository is
 [https://git.gmu.edu/cs571-proj/linux-utilities](https://git.gmu.edu/cs571-proj/linux-utilities).
-Don't clone the git repo directly; instead, as described in [GitLab Setup](./gitlab_setup.html)
+Don't clone the git repo directly; instead, as described in the [GitLab Setup instructions](./gitlab_setup.html)
 first fork that repo into your own private repo on our Mason GitLab server,
 then clone from that. You'll commit you changes locally and push them
 to your private GitLab repo for grading. 
-
-## Important Dates and Other Stuff
-
-**Due** Thursday, 02/06, midnight.
-
-**This project is to be done by yourself.**
-
-Tests: Read more about the tests, including how to run them, by
-reading the file
-[linux-utilities/tester/README](https://git.gmu.edu/cs571-proj/linux-utilities/blob/master/tester/README.md)
-(i.e., type cat linux-utilities/tester/README.md to see what
-to do, or better yet, use mcat ...?). Good luck!
 
 ## Linux Utilities
 

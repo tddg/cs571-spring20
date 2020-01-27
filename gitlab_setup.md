@@ -34,7 +34,7 @@ the original project GitLab repositories and then change the permission
 of the project to **Private**.
 For OS/161,
 Mkae sure you create a **Private** project with the name
-<kbd>os161-1.11</kbd>, and use <a href="https://git-scm.com/">Git</a>
+`os161-1.11`, and use <a href="https://git-scm.com/">Git</a>
 to keep track of your code editing history.
 
 ## Step 2: Clone Your GitLab Repo
