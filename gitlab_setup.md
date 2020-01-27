@@ -25,7 +25,7 @@ created when you configure and build.
 
 First, you will need to login to <a
 href="https://git.gmu.edu/users/sign_in">GitLab</a> by clicking
-`Sign in in with: GMU Login`. Username and Password never work
+`Sign in with: GMU Login`. Username and Password never work
 for some reason.
 
 **Important:**
