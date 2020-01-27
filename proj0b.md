@@ -12,7 +12,7 @@ permalink: /proj0b.html
 
 <p class="message">
 Please Email the composition of your team (for OS/161 assignments) to your TA ASAP. Team size upper limit: 2 people. 
-You can use this [Google Form](https://forms.gle/oFYvW8kiy82phSFp7).
+You can use this <a href="https://forms.gle/oFYvW8kiy82phSFp7">Google Form</a>.
 </p>
 
 ## Introduction
