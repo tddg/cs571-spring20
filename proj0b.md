@@ -525,9 +525,26 @@ In order to build your kernel above, you already checked out a
 	% tar cf - asst0 | gzip -c >  mygroup-asst0.tar.gz
 	```
 
+Obviously, "`mygroup`" should be replaced by the GMU IDs of the students who worked together in 
+the assignment (e.g., `msmith-jwatson-asst0.tar.gz`).
+
 ## What (and how) to hand in
 
 You will submit your assignment in BlackBoard.  The submission will
 consist of a properly tar'd and compressed (gnuzipped) file of your
-``asst0` directory.  Follow the instructions on the main page.
+`asst0` directory.  
+
+
+## Working with a partner
+
+Starting with this OS/161 project series (w/ all subsequent OS/161 projects), you can - and you
+are **ENCOURAGED** to - work with a partner: another CS 571 student. 
+
+* A team can have no more than two members;
+* It is fine if you choose to work alone, but there will be no bonus points for it;
+* Projects are developed assuming that two students will actively interact and cooperate in exploring 
+OS/161 and augmenting it with several features in the subsequent assignments;
+* When choosing a partner, **pay careful attention** to each other's time constriants;
+* You are **not** allowed to change your partner in the subsequent assignments, although you can choose
+to work alone in the subsequent assignments.
 
