@@ -76,8 +76,8 @@ The course schedule is tentative and subject to change.
 <table class="calendar" cellspacing="0" cellpadding="6" width="100%">
  <thead>
   <tr>
-   <td width="10%">Week</td><td width="55%">Monday</td>
-   <td width="35%">Thursday</td>
+   <td width="10%">Week</td><td width="60%">Monday</td>
+   <td width="30%">Thursday</td>
   </tr>
  </thead>
 
@@ -91,7 +91,9 @@ The course schedule is tentative and subject to change.
   <td id="2020-1-27" class="date"><b>Week 2</b></td>
   <td class="lecture">Jan 27<br/>
 	<b>Lec 1:</b> Introduction, process abstraction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]<br/>
-	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP//intro.pdf">Intro</a><br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP//intro.pdf">Intro</a>, 
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf">Process</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf">Process API</a><br/>
 	<span class="assignment"><a href="./proj0a.html">Proj 0a</a> and 
 		<a href="./proj0b.html">Proj 0b</a> out</span></td>
   <td class="nodue">Jan 30</td>
