@@ -10,7 +10,8 @@ permalink: /proj0b.html
 
 **This project can be done in a group of up to two students.** However, if you want to do it alone, it's fine too.
 
-> **Notice**: Please Email the composition of your team (for OS/161 assignments) to your TA ASAP. Team size upper limit: 2 people. 
+> **Notice**: Please Email the composition of your team (for OS/161
+> assignments) to your TA ASAP. Team of up to 2 students. 
 You can use this <a href="https://forms.gle/oFYvW8kiy82phSFp7">Google Form</a>.
 
 ## Introduction
