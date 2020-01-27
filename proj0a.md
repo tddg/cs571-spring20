@@ -332,7 +332,7 @@ is the same as his mason email ID: `aroy6`).
 2. Commit all your changes by typing:
 
 	```
-	% git commit -am 'the final awesome solution of proj0a: [Your Name] and [Your Mason GID]'
+	% git commit -am 'the final awesome solution of proj0a: [Your Name] and [Your GMU ID]'
 	```
 
 And that's all. We will check the timestamp (your last commit
