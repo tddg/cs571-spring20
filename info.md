@@ -11,14 +11,14 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Spring2020
 ## Instructor's office hours
 
 * Where: Engineering 5324
-* When: M 1:30 pm - 2:30 pm
+* When: Monday 1:30 pm - 2:30 pm
 
 ## GTA & office hours
 
 * Abhishek Roy
 * Email: [aroy6@masonlive.gmu.edu](mailto:aroy6@masonlive.gmu.edu)
-* Where: TBD
-* When: TBD
+* Where: Engineering 4456
+* When: Thursday 3:00 pm - 5:00 pm
 
 ## Prerequisite
 
