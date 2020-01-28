@@ -90,7 +90,8 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Jan 27 -->
   <td id="2020-1-27" class="date"><b>Week 2</b></td>
   <td class="lecture">Jan 27<br/>
-	<b>Lec 1:</b> Introduction, process abstraction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]<br/>
+	<b>Lec 1:</b> Introduction, process abstraction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]
+			[<a href="./public/lecs/lec1-intro+notes.pdf">slides+notes</a>]<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP//intro.pdf">Intro</a>, 
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf">Process</a>,
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf">Process API</a><br/>
