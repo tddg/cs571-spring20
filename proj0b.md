@@ -11,7 +11,7 @@ permalink: /proj0b.html
 **This project can be done in a group of up to two students.** However, if you want to do it alone, it's fine too.
 
 > **Notice**: Please Email the composition of your team (for OS/161
-> assignments) to your TA ASAP. Team of up to 2 students. 
+assignments) to your TA ASAP. Team of up to 2 students. 
 You can use this <a href="https://forms.gle/oFYvW8kiy82phSFp7">Google Form</a>.
 
 ## Introduction
@@ -385,7 +385,7 @@ will build a kernel for you.
 This tells the kernel to run the "poweroff" program that shuts the
 system down.  
 
-	**NOTE:** Unless you run the '<tt>building a kernel</tt>' script we
+	> **NOTE:** Unless you run the '<tt>building a kernel</tt>' script we
 provide, this step won't work. If you are building your own (without
 the script) you need to run `make` in the top of the source tree
 (should be <tt>~/os161/os161-1.11/Makefile</tt>)
