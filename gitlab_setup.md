@@ -37,6 +37,12 @@ Make sure you create a **Private** project with the name
 `os161-1.11`, and use <a href="https://git-scm.com/">Git</a>
 to keep track of your code editing history.
 
+For a newly created project, you can directly set the visibility to
+`Private` upfront. For forked projects,
+after the repository has been forked, go to your forked project, from
+`Settings`, go to `General`, from there change `Visibility` level to 
+`Private`.
+
 ## Step 2: Clone Your GitLab Repo
 
 Before cloning your GitLab repo to your student.cs computing environment,
