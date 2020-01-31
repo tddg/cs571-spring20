@@ -101,7 +101,7 @@ which we'll assume is in a file called **mcat.c**. All C code is
 automatically linked with the C library, which is full of useful functions you
 can call to implement your program. Learn more about the C library
 [here](https://en.wikipedia.org/wiki/C_standard_library) and perhaps
-[here](https://www-s.acm.illinois.edu/webmonkeys/book/c_guide/)<sup>[1](#myfootnote1)</sup>.  
+[here](https://atmos.illinois.edu/courses/atmos502-sp2017/C-language.html)<sup>[1](#myfootnote1)</sup>.  
 
 For this project, we recommend using the following routines to do file input
 and output: **fopen()**, **fgets()**, and **fclose()**. Whenever you use a new

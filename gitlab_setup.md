@@ -48,7 +48,7 @@ after the repository has been forked, go to your forked project, from
 Before cloning your GitLab repo to your student.cs computing environment,
 you will need to first create an RSA SSH key by typing:
 
-```
+```bash
 % ssh-keygen -t rsa -C "your_email_addr"
 ```
 
@@ -67,7 +67,7 @@ Then, create a new directory called <tt>os161</tt> under your `$HOME` directory,
 `cd` to your working directory where you are supposed to put your os161 source code,
 and clone your created GitLab repo on to your student.cs (Zeus) Linux box:
 
-```
+```bash
 % mkdir $HOME/os161 
 % cd $HOME/os161 
 % git clone git@git.gmu.edu:your_gid/os161-1.11.git
@@ -76,16 +76,16 @@ and clone your created GitLab repo on to your student.cs (Zeus) Linux box:
 You can then copy the downloaded 
 os161 src into this newly created git directory:
 
-```
+```bash
 % cd $HOME/os161/os161-1.11
-% cp -r $HOME/tmp/os161/os161-1.11/* .
+% cp -r $HOME/tmp/os161-1.11/* .
 ```
 
 ## Step 3: Check in Your Initial Source Code
 
 Now, check in the source code which you have already copied into the git directory:
 
-```
+```bash
 % git add *
 % git commit -m "init commit" 
 % git push  
@@ -94,13 +94,13 @@ Now, check in the source code which you have already copied into the git directo
 If you are checking in for the first time on an empty repo (which is your case here),
 you should run:
 
-```
+```bash
 % git push -u origin master
 ```
 
 Instead of
 
-```
+```bash
 % git push
 ```
 

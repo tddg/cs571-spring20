@@ -8,40 +8,13 @@ permalink: /os161_install.html
 
 ## Step 0: Which machine to use?
 
-You should do all of your OS/161 work on Zeus. 
+You should do all of your OS/161 work on `Zeus`. **This is a requirement.**
 
-## Step 1: Setting up your environment
-
- Start by logging in to your account and modifying your `$PATH`
-environment variable to ensure that various OS/161-related
-development tools are available. Your `$PATH` is normally set in your
-shell's startup file each time you log in. 
-
-Edit your `PATH` variable in the `.bash_profile` file. Look for a line like this: 
-
-```
-PATH=$PATH:/$HOME/bin
-```
-
-and make it
-
-```
-PATH=$PATH:/usr/local/sys161-1.14/bin:/usr/local/sys161-1.14 
-```
-
- Note that you may need to log out and log back in again so that this
-PATH change will take effect. You can check the current setting of
-the PATH environment variable using the command.
-
-```
-echo $PATH
-```
-
-## Step 2: Obtain a copy of the OS/161 source code
+## Step 1: Obtain a copy of the OS/161 source code
 
 Create a tmp directory under your `$HOME` directory: 
 
-```
+```bash
 % cd
 % mkdir tmp
 % cd tmp
@@ -49,20 +22,20 @@ Create a tmp directory under your `$HOME` directory:
 
 Obtain a copy of the OS/161 by entering:
 
-```
+```bash
 % wget https://cs.gmu.edu/~yuecheng/os161-1.11.tar.gz
 ```
 
 Next, extract the source code you just downloaded: 
 
-```
+```bash
 % tar -xzf os161-1.11.tar.gz
 ```
 
 Finally issue the module load command to load the `os161` toolchain
 (Zeus currently supports dynamically loadable modules):
 
-```
+```bash
 % module load sys161/1.14
 ```
 
@@ -71,16 +44,15 @@ when you login to Zeus, you can put the command into your `.bash_profile`
 environmental configuration file.
 
 
-
 If you are planning to use Mason GitLab to manage the OS/161 source
 code, this is the right time to follow
 the separate <a href="gitlab_setup.html">GitLab setup instructions</a>.
 Do this before you continue with Step 3.
 Once your Git repository has been set up and you have checked
 out a working copy of a OS/161, you can proceed with 
-Step 3 using your working copy.
+Step 2 using your working copy.
 
-## Step 3: Configure and build OS/161
+## Step 2: Configure and build OS/161
 
 Assuming you have already configured your Git repo and cloned
 the GitLab repo under the right directory.
@@ -88,7 +60,7 @@ The next step is to configure OS/161 and compile
 the kernel. For the first time, download the php script from
 the provided link and use it build the kernel:
 
-```
+```bash
 % wget http://cs.gmu.edu/~yuecheng/build-asst0.php
 % php -f build-asst0.php 
 ```
@@ -97,7 +69,7 @@ the provided link and use it build the kernel:
 Of course, you can manually build your kernel as well. To do so, from
 the your `$HOME/os161` directory, do the following:
 
-```
+```bash
 % cd os161-1.11
 % ./configure --ostree=$HOME/os161/root
 % cd kern/conf
@@ -125,14 +97,14 @@ Check the `$HOME/os161/root` directory
 to make sure that your kernel
 is in place.
 
-## Step 4: Try running OS/161
+## Step 3: Try running OS/161
 
 You should now be able to use the SYS/161 simulator to run
 the OS/161 kernel that you built and installed.
 The SYS/161 simulator requires a configuration file in
 order to run.  To obtain one, do this:
 
-```
+```bash
 % cd $HOME/os161/root
 % cp /opt/apps/sys161-1.14/sys161.conf.sample sys161.conf
 ```
@@ -142,13 +114,13 @@ simulator.  Assuming that you're still in the
 `$HOME/os161/root` directory,
 do this:
 
-```
+```bash
 % sys161 kernel-ASST0
 ```
 
 or
 
-```
+```bash
 % sys161 kernel
 ```
 
@@ -156,7 +128,7 @@ or
 
 You should see some output that looks something like this:
 
-```
+```bash
 sys161: System/161 release 1.99.05, compiled Apr 28 2011 21:49:59
 
 OS/161 base system version 1.11

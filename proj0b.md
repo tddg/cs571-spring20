@@ -418,7 +418,9 @@ template <a href="hello.c">hello.c</a>).
 
 5. Make sure that your new kernel runs and displays the new message.
 
-6. Once your kernel builds, script a session demonstrating a config
+6. Commit your updates to your private GitLab repository.
+
+7. Once your kernel builds, script a session demonstrating a config
 and build of your modified kernel.  Call the output of this script
 session `newbuild.script`.
 
