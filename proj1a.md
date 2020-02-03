@@ -217,7 +217,7 @@ line).
 **The one and only error message.** You should print this one and only error
 message whenever you encounter an error of any type:
 
-```C
+```c
     char error_message[30] = "An error has occurred\n";
     write(STDERR_FILENO, error_message, strlen(error_message)); 
 ```
