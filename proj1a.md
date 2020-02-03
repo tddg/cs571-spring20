@@ -49,7 +49,7 @@ should be `mash`.
 The shell can be invoked with either no arguments or a single argument;
 anything else is an error. Here is the no-argument way:
 
-```
+```bash
 prompt> ./mash
 mash> 
 ```
@@ -61,7 +61,7 @@ commands directly. The shell also supports a *batch mode*, which instead reads
 input from a batch file and executes commands from therein. Here is how you
 run the shell with a batch file named `batch.txt`:
 
-```
+```bash
 prompt> ./mash batch.txt
 ```
 
@@ -197,7 +197,7 @@ not test what happens when you type `path /bin > file`).
 Your shell will also allow the user to launch parallel commands. This is
 accomplished with the ampersand operator as follows:
 
-```
+```bash
 mash> cmd1 & cmd2 args1 args2 & cmd3 args1
 ```
 
