@@ -45,7 +45,7 @@ Here is a tentative list of projects:
 
 * Project 0a (Warm-up C): Practice C programming by implementing four command line tools;
 * Project 0b (Warm-up OS/161): OS/161 setup and configuration;
-* Project 1a: Implement a UNIX shell application using C;
+* Project 1a: Implement a Linux shell using C;
 * Project 1b: OS/161 synchronization;
 * Project 2a: OS/161 system calls;
 * Project 2b: OS/161 multi-level feedback queue scheduling;
