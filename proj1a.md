@@ -217,7 +217,7 @@ line).
 **The one and only error message.** You should print this one and only error
 message whenever you encounter an error of any type:
 
-```
+```C
     char error_message[30] = "An error has occurred\n";
     write(STDERR_FILENO, error_message, strlen(error_message)); 
 ```
@@ -279,7 +279,7 @@ the major milestones as you go. To do so, you can do something like the followin
 
 ```bash
 % git tag -a -m 'i finished passing test 1, 2, and 3, now working on test 4...' mash-v1
-$ git push origin master mash-v1
+% git push origin master mash-v1
 ```
 
 
