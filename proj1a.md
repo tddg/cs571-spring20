@@ -295,7 +295,7 @@ Abhishek (his GitLab ID is the same as his Mason Email ID: `aroy6`).
 2. Commit all your changes by typing:
 
 	```bash
-	% git commit -am 'the final awesome solution of proj1a: [Your Name] and [Your GMU ID]'
+% git commit -am 'the final awesome solution of proj1a: [Your Name] and [Your GMU ID]'
 	```
 
 And that's all. We will check the timestamp (your last commit
