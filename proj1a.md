@@ -287,7 +287,7 @@ the major milestones as you go. To do so, you can do something like the followin
 
 You will submit your assignment using GitLab. The submission will
 consist of whatever is contianed in your **private**
-`proc-shell` repository. 
+`linux-shell` repository. 
 
 1. You will need to share your **private** repository with our GTA
 Abhishek (his GitLab ID is the same as his Mason Email ID: `aroy6`).
