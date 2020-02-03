@@ -102,7 +102,10 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Feb 3 -->
   <td id="2020-2-3" class="date"><b>Week 3</b></td>
   <td class="lecture">Feb 3<br/>
-	<b>Lec 2:</b> LDE, thread abstraction</td>
+	<b>Lec 2:</b> <a href="./public/lecs/lec2-lde-thread.pdf">LDE, thread abstraction</a>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">IDE</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">Thread API</a>
+	</td>
   <td class="deadline">Feb 6<br/>
 	<span class="hwdue"><a href="./proj0a.html">Proj 0a</a> and 
 		<a href="./proj0b.html">Proj 0b</a> due</span><br/>
