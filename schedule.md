@@ -110,7 +110,7 @@ The course schedule is tentative and subject to change.
   <td class="deadline">Feb 6<br/>
 	<span class="hwdue"><a href="./proj0a.html">Proj 0a</a> and 
 		<a href="./proj0b.html">Proj 0b</a> due</span><br/>
-	<span class="assignment"><a href="./proj1.html">Proj 1</a> out</span></td>
+	<span class="assignment"><a href="./proj1a.html">Proj 1a</a> out</span></td>
 </tr>
 <tr> <!-- week of Feb 10 -->
   <td id="2020-2-10" class="date"><b>Week 4</b></td>
@@ -124,7 +124,7 @@ The course schedule is tentative and subject to change.
 	<b>Lec 4:</b> Synchronization II: classic sync problems,<br/>
 		CPU scheduling I: FIFO, SJF</td>
   <td class="deadline">Feb 20<br/>
-	<span class="hwdue"><a href="./proj1.html">Proj 1a</a> due</span></td>
+	<span class="hwdue"><a href="./proj1a.html">Proj 1a</a> due</span></td>
 </tr>
 <tr> <!-- week of Feb 24 -->
   <td id="2020-2-24" class="date"><b>Week 6</b></td>
@@ -140,7 +140,7 @@ The course schedule is tentative and subject to change.
 		Midterm review<br/>
 		<span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td>
   <td class="deadline">Mar 5<br/>
-	<span class="hwdue"><a href="./proj1.html">Proj 1b</a> due</span></td>
+	<span class="hwdue"><a href="./proj1b.html">Proj 1b</a> due</span></td>
 </tr>
 <tr> <!-- week of Mar 9 -->
   <td id="2020-3-9" class="date"><b>Week 8</b></td>
