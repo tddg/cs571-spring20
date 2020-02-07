@@ -22,6 +22,18 @@ There are three specific objectives to this assignment:
 * To learn how processes are created, destroyed, and managed.
 * To gain exposure to the necessary functionality in shells.
 
+## GitLab Repo
+
+Again, for this project, we supply you with a testing framework that
+is written using bash script. The URL for the Git repository is located
+at: [https://git.gmu.edu/cs571-proj/linux-shell](https://git.gmu.edu/cs571-proj/linux-shell).
+As always, please **DO NOT** clone the Git repo directly. Instead, as
+described in the [GitLab Setup instructions](./gitlab_setup.html)
+first fork that repo into your own **private** repo on our Mason GitLab
+server, then clone from that. You'll commit you changes locally and
+push them to your private GitLab repo for grading. 
+
+
 ## Overview
 
 In this assignment, you will implement a *command line interpreter (CLI)* or,
@@ -291,6 +303,8 @@ consist of whatever is contianed in your **private**
 
 1. You will need to share your **private** repository with our GTA
 Abhishek (his GitLab ID is the same as his Mason Email ID: `aroy6`).
+Make sure to grant Abhishek a role of **"Developer"** or **"Maintainer"**.
+"Guest" role permission does not grant access for some reason.
 
 2. Commit all your changes by typing:
 

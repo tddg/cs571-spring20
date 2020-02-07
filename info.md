@@ -17,8 +17,8 @@ The course syllabus is posted [here](https://cs.gmu.edu/media/syllabi/Spring2020
 
 * Abhishek Roy
 * Email: [aroy6@masonlive.gmu.edu](mailto:aroy6@masonlive.gmu.edu)
-* Where: Engineering 4456
-* When: Thursday 3:00 pm - 5:00 pm
+* Where: Engineering 5321
+* When: Thursday 4:00 pm - 6:00 pm
 
 ## Prerequisite
 
