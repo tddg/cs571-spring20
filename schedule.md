@@ -105,7 +105,7 @@ The course schedule is tentative and subject to change.
 	<b>Lec 2:</b> LDE, thread abstraction [<a href="./public/lecs/lec2-lde-thread.pdf">slides</a>] 
 		[<a href="./public/lecs/lec2-lde-thread+notes.pdf">slides+notes</a>]<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">LDE</a>,
-		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">Thread API</a>
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf">Thread API</a>
 	</td>
   <td class="deadline">Feb 6<br/>
 	<span class="hwdue"><a href="./proj0a.html">Proj 0a</a> and 
