@@ -117,7 +117,8 @@ The course schedule is tentative and subject to change.
   <td class="lecture">Feb 10<br/>
 	<b>Lec 3:</b> Synchronization I: locks, semaphore [<a href="./public/lecs/lec3-lock-sem.pdf">slides</a>]<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf">Concurrency</a> and
-		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">Locks</a></td>
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">Locks</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf">Semaphores</a></td>
   <td class="nodue">Feb 13</td>
 </tr>
 <tr> <!-- week of Feb 17 -->
