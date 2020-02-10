@@ -104,7 +104,7 @@ The course schedule is tentative and subject to change.
   <td class="lecture">Feb 3<br/>
 	<b>Lec 2:</b> LDE, thread abstraction [<a href="./public/lecs/lec2-lde-thread.pdf">slides</a>] 
 		[<a href="./public/lecs/lec2-lde-thread+notes.pdf">slides+notes</a>]<br/>
-	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">LDE</a>,
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf">LDE</a> and
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf">Thread API</a>
 	</td>
   <td class="deadline">Feb 6<br/>
@@ -116,7 +116,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-2-10" class="date"><b>Week 4</b></td>
   <td class="lecture">Feb 10<br/>
 	<b>Lec 3:</b> Synchronization I: locks, semaphore [<a href="./public/lecs/lec3-lock-sem.pdf">slides</a>]
-	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf">Concurrency</a>,
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf">Concurrency</a> and
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">Locks</a></td>
   <td class="nodue">Feb 13</td>
 </tr>
