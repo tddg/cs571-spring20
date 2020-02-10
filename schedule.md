@@ -115,9 +115,9 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Feb 10 -->
   <td id="2020-2-10" class="date"><b>Week 4</b></td>
   <td class="lecture">Feb 10<br/>
-	<b>Lec 3:</b> Synchronization I: locks, semaphore [<a href="./public/lecs/lec3-lock-sem.pdf">slides</a>]</td>
+	<b>Lec 3:</b> Synchronization I: locks, semaphore [<a href="./public/lecs/lec3-lock-sem.pdf">slides</a>]
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf">Concurrency</a>,
-		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">Locks</a>
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf">Locks</a></td>
   <td class="nodue">Feb 13</td>
 </tr>
 <tr> <!-- week of Feb 17 -->
