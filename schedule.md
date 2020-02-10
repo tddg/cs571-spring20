@@ -93,7 +93,7 @@ The course schedule is tentative and subject to change.
 	<b>Lec 1:</b> Introduction, process abstraction [<a href="./public/lecs/lec1-intro.pdf">slides</a>]
 			[<a href="./public/lecs/lec1-intro+notes.pdf">slides+notes</a>]<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP//intro.pdf">Intro</a>, 
-		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf">Process</a>,
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf">Process</a> and
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf">Process API</a><br/>
 	<span class="assignment"><a href="./proj0a.html">Proj 0a</a> and 
 		<a href="./proj0b.html">Proj 0b</a> out</span></td>
