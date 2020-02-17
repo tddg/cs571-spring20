@@ -125,7 +125,7 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Feb 17 -->
   <td id="2020-2-17" class="date"><b>Week 5</b></td>
   <td class="lecture">Feb 17<br/>
-	<b>Lec 4:</b> Synchronization II: classic sync problems [<a href="./public/lecs/lec4-cv-rw-5dp.pdf">slides</a>]
+	<b>Lec 4:</b> Synchronization II: cv, classic sync problems [<a href="./public/lecs/lec4-cv-rw-5dp.pdf">slides</a>]
 		[<a href="./public/lecs/lec4-cv-rw-5dp+notes.pdf">slides+notes</a>],<br/>
 		CPU scheduling I: FIFO, SJF [<a href="./public/lecs/lec4-sched-fifo-sjf.pdf">slides</a>]
 		[<a href="./public/lecs/lec4-sched-fifo-sjf+notes.pdf">slides+notes</a>]</td>
