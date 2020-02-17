@@ -4,7 +4,7 @@ title: "Project 1b: OS/161 Synchronization"
 permalink: /proj1b.html
 ---
 
-## Important Dates and Other Stuff
+## Important Dates
 
 **Due** Thursday, 03/05, midnight.
 
