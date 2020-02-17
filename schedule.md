@@ -125,8 +125,13 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Feb 17 -->
   <td id="2020-2-17" class="date"><b>Week 5</b></td>
   <td class="lecture">Feb 17<br/>
-	<b>Lec 4:</b> Synchronization II: classic sync problems,<br/>
-		CPU scheduling I: FIFO, SJF</td>
+	<b>Lec 4:</b> Synchronization II: classic sync problems [<a href="./public/lecs/lec4-cv-rw-5dp.pdf">slides</a>]
+		[<a href="./public/lecs/lec4-cv-rw-5dp+notes.pdf">slides+notes</a>],<br/>
+		CPU scheduling I: FIFO, SJF [<a href="./public/lecs/lec4-sched-fifo-sjf.pdf">slides</a>]
+		[<a href="./public/lecs/lec4-sched-fifo-sjf+notes.pdf">slides+notes</a>]</td>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf">CV</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf">Deadlocks</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/cpu-sched.pdf">Scheduling (intro)</a></td>
   <td class="deadline">Feb 20<br/>
 	<span class="hwdue"><a href="./proj1a.html">Proj 1a</a> due</span><br/>
 	<span class="assignment"><a href="./proj1b.html">Proj 1b</a> out</span></td>
