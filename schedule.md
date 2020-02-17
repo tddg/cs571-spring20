@@ -128,7 +128,8 @@ The course schedule is tentative and subject to change.
 	<b>Lec 4:</b> Synchronization II: classic sync problems,<br/>
 		CPU scheduling I: FIFO, SJF</td>
   <td class="deadline">Feb 20<br/>
-	<span class="hwdue"><a href="./proj1a.html">Proj 1a</a> due</span></td>
+	<span class="hwdue"><a href="./proj1a.html">Proj 1a</a> due</span><br/>
+	<span class="assignment"><a href="./proj1b.html">Proj 1b</a> out</span></td>
 </tr>
 <tr> <!-- week of Feb 24 -->
   <td id="2020-2-24" class="date"><b>Week 6</b></td>
