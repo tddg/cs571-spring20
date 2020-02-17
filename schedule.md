@@ -128,7 +128,7 @@ The course schedule is tentative and subject to change.
 	<b>Lec 4:</b> Synchronization II: cv, classic sync problems [<a href="./public/lecs/lec4-cv-rw-5dp.pdf">slides</a>]
 		[<a href="./public/lecs/lec4-cv-rw-5dp+notes.pdf">slides+notes</a>],<br/>
 		CPU scheduling I: FIFO, SJF [<a href="./public/lecs/lec4-sched-fifo-sjf.pdf">slides</a>]
-		[<a href="./public/lecs/lec4-sched-fifo-sjf+notes.pdf">slides+notes</a>]</td>
+		[<a href="./public/lecs/lec4-sched-fifo-sjf+notes.pdf">slides+notes</a>]<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf">CV</a> and
 		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf">Deadlocks</a> and
 		<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/cpu-sched.pdf">Scheduling (intro)</a></td>
