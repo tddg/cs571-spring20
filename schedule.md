@@ -140,7 +140,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-2-24" class="date"><b>Week 6</b></td>
   <td class="holiday">Feb 24
 	(<b>Traveling to FAST</b> NO CLASS)<br/>
-	<!--b>Lec 5:</b> CPU scheduling II: RR, priority, MLFQ-->
+	<b>Lec 5:</b> CPU scheduling II: RR, priority, MLFQ>
 	</td>
   <td class="nodue">Feb 27</td>
 </tr>
