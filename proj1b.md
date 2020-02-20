@@ -8,6 +8,32 @@ permalink: /proj1b.html
 
 **Due** Thursday, 03/05, midnight.
 
+## FAQ
+
+* **Q:** Where is my `sys161.conf`?
+
+	**A:** It is located under `root/`
+
+* **Q:** Why are all my configurations (e.g., `random seed`, and `ramsize`) in `sys161.conf` changed to the default after every automatic compile?
+
+	**A:** The php build script will overwrite your `sys161.conf` everytime you run it. To avoid that, do build and install manually:
+	```bash
+	% cd os161-1.11/kern/conf
+	% ./config ASST1
+	% cd ../compile/ASST1
+	% make clean
+	% make
+	% make install
+	```
+
+* **Q:** Can I use a single *big lock* to lock the whole intersection in my implementation?
+
+	**A:** Well, no. You may want to use fine-grained locks; that is, each block (NW, NE, SW, SE) has its own lock.
+
+* **Q:** Can I use condition variables or semaphores?
+	
+	**A:** No. You must use locks that you implement.
+	
 
 ## Introduction
 
