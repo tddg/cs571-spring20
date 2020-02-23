@@ -140,7 +140,12 @@ The course schedule is tentative and subject to change.
   <td id="2020-2-24" class="date"><b>Week 6</b></td>
   <td class="holiday">Feb 24
 	(<b>Traveling to FAST</b> NO CLASS)<br/>
-	<b>Lec 5:</b> CPU scheduling II: RR, priority, MLFQ>
+	<b>Lec 5a:</b> CPU scheduling II: RR, priority, MLFQ [<a target="_blank" href="https://youtu.be/w0VpAopq7dA">video</a>]
+		[<a href="./public/lecs/lec5-sched-rr-priority-mlfq.pdf">slides</a>] 
+		[<a href="./public/lecs/lec5-sched-rr-priority-mlfq+notes.pdf">slides+notes</a>], <br/>
+	<b>Lec 5b:</b> Proj 1b (OS/161 sync) [<a href="./public/lecs/lec-os161-sync.pdf">slides</a>] 
+		[<a target="_blank" href="https://youtu.be/gz9PUJqv1kg">video1</a>]
+		[<a target="_blank" href="https://youtu.be/gU91JIUzhRU">video2</a> (src walkthru)]
 	</td>
   <td class="nodue">Feb 27</td>
 </tr>
