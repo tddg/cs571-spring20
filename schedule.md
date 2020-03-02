@@ -147,7 +147,7 @@ The course schedule is tentative and subject to change.
 		[<a target="_blank" href="https://youtu.be/gz9PUJqv1kg">video1</a>]
 		[<a target="_blank" href="https://youtu.be/gU91JIUzhRU">video2</a> (src walkthru)]
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/cpu-sched-mlfq.pdf">MLFQ</a> and
-		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf">Lottery</a></td>
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf">Lottery</a>
 	</td>
   <td class="nodue">Feb 27</td>
 </tr>
