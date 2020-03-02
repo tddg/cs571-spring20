@@ -146,15 +146,21 @@ The course schedule is tentative and subject to change.
 	<b>Lec 5b:</b> Proj 1b (OS/161 sync) [<a href="./public/lecs/lec-os161-sync.pdf">slides</a>] 
 		[<a target="_blank" href="https://youtu.be/gz9PUJqv1kg">video1</a>]
 		[<a target="_blank" href="https://youtu.be/gU91JIUzhRU">video2</a> (src walkthru)]
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/cpu-sched-mlfq.pdf">MLFQ</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf">Lottery</a></td>
 	</td>
   <td class="nodue">Feb 27</td>
 </tr>
 <tr> <!-- week of Mar 2 -->
   <td id="2020-3-2" class="date"><b>Week 7</b></td>
   <td class="lecture">Mar 2<br/>
-	<b>Lec 6:</b> Memory management I: address space, segmentation<br/>
-		Midterm review<br/>
-		<span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td>
+	<b>Lec 6a:</b> Memory management I: address space, segmentation [<a href="./public/lecs/lec6-mem-addrspace-seg.pdf">slides</a>] 
+		[<a href="./public/lecs/lec6-mem-addrspace-seg+notes.pdf">slides+notes</a>],<br/>
+	<b>Lec 6b:</b> Midterm review [<a href="./public/lecs/midterm-review.pdf">slides</a>]
+		[<a href="./public/lecsl/midterm-review+notes.pdf">slides+notes</a>]<br/>
+		<!--span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td-->
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-intro.pdf">Address space abstraction</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-mechanism.pdf">Address translation</a></td>
   <td class="deadline">Mar 5<br/>
 	<span class="hwdue"><a href="./proj1b.html">Proj 1b</a> due</span></td>
 </tr>
