@@ -155,7 +155,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-3-2" class="date"><b>Week 7</b></td>
   <td class="lecture">Mar 2<br/>
 	<b>Lec 6a:</b> Memory management I: address space, segmentation [<a href="./public/lecs/lec6-mem-addrspace-seg.pdf">slides</a>] 
-		[<a href="./public/lecs/lec6-mem-addrspace-seg+notes.pdf">slides+notes</a>],<br/>
+		[<a href="./public/lecs/lec6-mem-addrspace+notes.pdf">slides+notes</a>],<br/>
 	<b>Lec 6b:</b> Midterm review [<a href="./public/lecs/midterm-review.pdf">slides</a>]<br/>
 		<!--span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td-->
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-intro.pdf">Address space abstraction</a> and
