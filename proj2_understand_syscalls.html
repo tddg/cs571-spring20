@@ -1,0 +1,304 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Understanding System Calls</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Understanding System Calls</h1>
+
+<p>
+
+In this document, we walk through the functions and steps that are
+involved in (a) starting a user-level program, (b) handling system
+calls in the OS, and (c) invoking system calls at the user-level.
+
+</p><p> You should read this document together with the OS/161 source code files
+that it refers to.  For maximum benefit, you should run OS/161 under the
+control of the debugger, and be able to browse the source code, while working
+through this document.
+
+
+</p><p>
+In a real
+operating system, the kernel's main function is to provide support  for
+user-level programs.  Most such support is accessed via "system calls." We
+give you one system call, <tt>reboot()</tt>, which is implemented in the 
+function <tt>sys_reboot()</tt> in <tt>src/kern/main/main.c</tt>. In GDB, if you put a breakpoint 
+on <tt>sys_reboot</tt> and run the "reboot" program (by typing "p /sbin/reboot" at the OS/161 menu prompt), 
+you can use "backtrace" to see how it got there. 
+
+</p><p><b>User level programs</b>
+
+</p><p>
+Our System/161 simulator can run normal programs compiled from C. The
+programs are compiled with a cross-compiler, <tt>cs161-gcc</tt>. 
+This compiler runs on the host machine and produces MIPS executables; it is 
+the same compiler used to compile the OS/161 kernel. To create new 
+user programs, you will need to edit the Makefile in <tt>bin</tt>, 
+<tt>sbin</tt>, or <tt>testbin</tt> (depending on where you
+put your programs) and then create a directory similar to those that
+already exist.  Use an existing program and its Makefile as a template.
+You will want to create new user-level test programs that use the system
+calls you are adding.
+
+
+</p><p><b>Getting to user-mode (starting a user-level program)</b>
+
+</p><p> Examine <tt>kern/main/menu.c</tt> to see how the "p" menu command
+is handled.  This command allows us to load and execute a single
+user-level program.  We will describe this in great detail, most
+of which is not of critical importance for this assignment.  You will need to
+understand this eventually, however, and the sooner the better.
+
+</p><p> The <tt>menu()</tt> function loops forever printing the menu prompt,
+getting a string from the console, and calling <tt>menu_execute</tt> 
+to handle the input.  Looking at <tt>menu_execute</tt>, we see that 
+it separates the input into individual commands (indicated by a semi-colon)
+and then calls <tt>cmd_dispatch</tt> for each command.  In <tt>cmd_dispatch</tt>,
+the name of the command is separated from its arguments, and the name is
+looked up in the <tt>cmdtable</tt> data structure.  This table stores
+the string name of each menu command and a function pointer to the 
+function that should handle that command.
+
+</p><p> Looking at the <tt>cmdtable</tt> declaration, we find that the
+"p" command is handled by calling the <tt>cmd_prog</tt> function.
+This function simply strips off the "p" part and passes the rest
+of the input to the <tt>common_prog</tt> function.  Looking at
+<tt>common_prog</tt> we see that it calls <tt>thread_fork</tt>,
+creating a new thread to run the specified user-level program.
+Following this call to thread_fork, our system has 2 threads - the initial boot
+thread that runs the menu() loop, and this new thread that runs the
+requested user-level program.  You can look at <tt>kern/thread/thread.c</tt> to
+see what thread_fork() does, but the important thing right now is that
+the fourth argument to thread_fork specifies the function that the
+new thread should start executing (in this case, <tt>cmd_progthread</tt>), 
+and the second and third arguments to thread_fork are the arguments to pass to 
+that function (in this case, the name of the program to load).  
+The <tt>cmd_progthread</tt> function calls <tt>runprogram</tt>, passing
+it the name of the program to load and execute.  Note that if runprogram
+is successful, the thread will continue with the execution of the user-level
+program and will never return to <tt>cmd_progthread</tt>.
+Now let's consider how <tt>runprogram</tt> operates.
+ 
+</p><p>The <tt>kern/userprog</tt> directory contains the files that are
+responsible for the loading and running of user-level programs.
+Currently, the only files in the directory are <tt>loadelf.c</tt>,
+<tt>runprogram.c</tt>, and <tt>uio.c</tt>.  (During this assignment,
+you should add the file simple_syscalls.c to this directory.)
+Understanding these files will be very important in future assignments,
+but for the time being, a basic understanding of how a user program is 
+loaded and executed is sufficient. 
+
+
+</p><p><tt>runprogram.c</tt>:
+This file contains only one function, <tt>runprogram()</tt>, which is 
+responsible for running a program from the kernel menu.  It uses the
+virtual file system operations to open the file containing the program
+we want to load, creates an address space for the thread, and loads
+the program into that address space, using the <tt>load_elf</tt> function.
+If loading the program is successful, <tt>runprogram</tt> then sets up the user stack area in
+the address space, and calls <tt>md_usermode</tt> to switch to
+user mode and start running the user program. (You will be learning more about how
+ <tt>md_usermode</tt> works later this term.  Essentially, it does some setup so that
+ a "return from exception" takes control to the entry point of the user program, even
+ though we did not enter the kernel through an exception.)
+
+ </p><p> Other files in the userprog directory:
+
+ </p><p><tt>loadelf.c</tt>:
+ This file contains the functions responsible for loading an ELF executable
+ from the filesystem and into virtual memory space.  (ELF is the name
+ of the executable format produced by <tt>cs161-gcc</tt>.)
+ Of course, at this point this virtual memory space does not provide what
+ is normally meant by virtual memory -- although there is translation
+ between the addresses that executables "believe" they are using and
+ physical addresses, there is no mechanism for providing more memory
+ than exists physically.  We recommend not stressing about this until
+ Assignment 3.
+
+ </p><p><tt>uio.c</tt>:
+ This file contains functions for moving data between kernel and user
+ space.  Knowing when and how to cross this boundary is critical to
+ properly implementing userlevel programs, so this is a good file to read
+ very carefully. You should also examine the code in
+ <tt>lib/copyinout.c</tt>.  You should be using <tt>copyinstr</tt>
+ to get the string to be printed from the user address when implementing
+ the final system call.
+
+ </p><p> Once a user program is running, it requests service from the OS using
+ system calls.  We now take a closer look at these.
+
+ </p><p><b>Getting to system mode:  traps and syscalls (kern/arch/mips/mips)</b>
+
+ </p><p>
+ Exceptions are the key to operating systems; they are the mechanism
+ that enables the OS to regain control of execution and therefore do
+ its job.  You can think of exceptions as the interface between the
+ processor and the operating system. When the OS boots, it installs an
+ "exception handler" (carefully crafted assembly code) at a specific
+ address in memory.  When the processor raises an exception, it invokes
+ this, which sets up a "trap frame" and calls into the operating
+ system.  The business of initializing the trap frame and returning
+ from an exception is all done in assembly code, and can be found in
+ <tt>kern/arch/mips/mips/exception.S</tt>.  You don't need to be able
+ to read MIPS assembly code, but the comments in this file are
+ reasonably good.  You can see how all the registers are saved ("sw" ==
+ "store word"), followed by a call to the <tt>mips_trap</tt> function
+ ("jal" == "jump and link" == function call).  On return from
+ <tt>mips_trap</tt>, all of the saved state is restored ("lw" == "load
+ word") and execution resumes at the point where the exception
+ occurred.
+
+ </p><p> Looking at the definition of <tt>struct trapframe</tt> in
+ <tt>kern/arch/mips/include</tt>, we can see that a trap frame includes
+ space to save all the processor registers that the user program might
+ have been using, as well as some additional state that identifies the
+ cause of the exception (the "tf_cause" field), and the instruction
+ that was being executed when the exception occurred (the "tf_epc"
+ field -- note that epc == "Exception PC" == contents of the program
+ counter register when the exception occurred).  
+
+ </p><p> Note that since "exception" is
+ such an overloaded term in computer science, operating system lingo for
+ an exception is a "trap" -- when the OS traps execution.  Interrupts are
+ exceptions, and more significantly for this assignment, so are system
+ calls.  Specifically, <tt>syscall.c</tt> handles traps that happen to 
+ be system calls. 
+
+ </p><p>
+ <tt>mips_trap()</tt> in <tt>kern/arch/mips/mips/trap.c</tt> is the key
+ function for returning control to the operating system. This is the C
+ function that gets called by the assembly language exception handler.  It
+ includes code to determine what type of exception occurred, and to
+ dispatch an appropriate handler.  If the exception code is
+ <tt>EX_SYS</tt>, then <tt>mips_syscall</tt> is called to handle the
+ system call, passing it the trapframe.
+
+
+ </p><p>
+ <tt>mips_syscall()</tt> in <tt>kern/arch/mips/mips/syscall.c</tt> is the
+ function that delegates the actual work of a system call to the kernel
+ function that implements it. <font color="red">Read the comments at the top of this file
+   carefully!</font>  In <tt>mips_syscall</tt>, we begin by
+ extracting the system call number from the trapframe's <tt>tf_v0</tt>
+ field.  This means that the system call number was stored in register
+ v0 prior to executing the <tt>syscall</tt> instruction.  Then we
+ simply switch on the system call number, with a separate "case" to
+ handle each possible system call.  Notice that <tt>reboot()</tt> is
+ the only case currently handled.  These system call numbers are all
+ defined in <tt>kern/include/kern/callno.h</tt>.  You should add new
+ entries to this file for the system calls that you are creating for
+ this assignment.
+
+ </p><p> Following the switch statement, we prepare to return from the system call.
+ The user-level side of the system call expects to find the result of the 
+ system call in register v0, with register a3 indicating whether or not
+ an error occurred.  We accomplish this by setting the appropriate fields in
+ the trapframe, which will be loaded into the machine registers before returning
+ control to the user program.  Finally, we have to advance the program counter 
+ to the next instruction, so that the <tt>syscall</tt> instruction will not be
+ repeated.  This is done by incrementing the <tt>tf_epc</tt> field of the 
+ trapframe.  
+
+ </p><p> <b> The user-level side of a system call </b>
+
+ </p><p> Ok, so that's what happens on the OS side when a system call occurs.
+ Now let's look at the user level interface to system calls.  Most of this
+ will be encapsulated in C library functions.
+
+ </p><p><tt>src/lib/libc/</tt>: This is the user-level C library. There's obviously 
+ a lot of code here. We don't expect you to read it all,
+ although it may be instructive in the long run to do so.  Job interviewers
+ have an uncanny habit of asking people to implement standard C library
+ functions on the whiteboard.  For present purposes you need only look
+ at the code that implements the user-level side of system calls, which
+ we detail below.
+
+ </p><p><tt>errno.c</tt>:
+ This is where the global variable errno is defined.  Note that this variable
+ is a global within a user-level C program.  <b>You cannot set errno for a user-level
+   program by setting a variable named "errno" in the kernel</b>.
+
+ </p><p><tt>syscalls-mips.S</tt>: This file contains the machine-dependent
+ code necessary for implementing the user-level side of MIPS system
+ calls.  It consists of a C pre-processor "define" that declares the
+ body of each system call. The body of each system call is identical,
+ except that a different system call number "num" is used.  This body
+ simply loads the system call number (as defined in callno.h) into
+ register v0 and then jumps to the code common to all system calls at
+ the <tt>__syscall</tt> label. (Compare this with the OS side where the
+ system call number is extracted from the "tf_v0" field of the
+ trapframe).  
+
+ </p><p> You may notice that it looks like the code jumps to the <tt>__syscall</tt>
+ label <i>before</i> setting the system call number.  This is just a
+ peculiarlity of the MIPS architecture -- the instruction immediately following a branch
+ is called a "delay slot" which means that an instruction can be scheduled and
+ executed <i>during</i> a branch.  Such instructions appear immediately
+ after the branch instruction itself.  Thus, the "<tt>addiu v0, $0,
+   SYS_##sym</tt>" happens before we get to the common syscall code at
+ the label <tt>__syscall</tt>.  Try not to be too disturbed by this.
+
+ </p><p>Look now at the assembly code at the <tt>__syscall</tt> label.
+
+ </p><p> The common system call code begins with the <tt>syscall</tt> instruction, which
+ causes a "system call exception" and transfers control to the OS as outlined above.
+ The "tf_epc" field in the trapframe on the OS side points to this instruction, and
+ we finish our system call handler by setting "tf_epc" to the next instruction, so
+ on return from the system call we execute the "beq" instruction.  This instruction
+ tests if the system call failed or succeeded (recall the system side sets "tf_a3"
+ to 1 on error, and 0 on success).  If an error occurred, we take the error code
+ from the v0 register and store it into the global variable errno, and set the
+ return value of the system call (the v0 register) to "-1".  If no error occurred,
+ then the OS put the result of the system call into "tf_v0" and we can just return.
+
+ </p><p><tt>syscalls.S</tt>: This file is created from syscalls-mips.S at
+ compile time and is the actual file assembled into the C library.  The
+ actual names of the system calls are placed in this file using a
+ script called <tt>callno-parse.sh</tt> that reads them from the
+ kernel's header files.  This avoids having to make a second list of
+ the system calls.  In a real system, typically each system call stub
+ is placed in its own source file, to allow selectively linking them
+ in.  OS/161 puts them all together to simplify the makefiles.  Adding
+ new entries to callno.h automatically causes new user-level system
+ call procedures to be defined when you re-build the user-level code.
+ Each "SYSCALL(name,num)" macro statement in this file is expanded by
+ the C pre-processor into a declaration of the appropriate system call
+ function.
+
+ </p><p><tt>src/include/unistd.h</tt>:
+ The file <tt>include/unistd.h</tt> contains the user-level interface
+ definition of the system calls for OS/161 (including ones you will
+ implement in later assignments).  <font color="red">The only thing you need to do to
+   complete the user-level system call interface is declare prototypes
+   for your new system calls in <tt>unistd.h</tt></font>.  Everything else
+ (on the user side) happens automatically when you re-build after updating
+ callno.h.
+
+ </p><p> Note that the user-level interface defined in unistd.h is
+ different from that of the kernel functions that you will define to
+ implement these calls.  You need to declare the kernel functions in
+ <tt>kern/include/syscall.h</tt>.   
+
+
+ </p><p><b> Testing new system calls</b>
+
+ </p><p> To test your new system calls, add new test programs to <tt>src/testbin</tt>.  Use the existing
+ programs as a template.  
+
+ As an example, you could use the following program to test the "helloworld()" system call:
+
+ </p><pre>#include &lt;unistd.h&gt;
+
+int main()
+{
+	helloworld();
+	return 0;
+}
+ </pre>
+
+
+
+
+ </body></html>
+

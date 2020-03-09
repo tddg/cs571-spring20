@@ -1,0 +1,44 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Test Cases for Project 2</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+
+
+<h1>Test Cases for Project 2 (A partial example)</h1>
+
+<p>
+
+<p>
+
+
+
+</p><p>
+
+</p><p>
+<table border="0" cellpadding="3" cellspacing="2" hspace="4" width="100%">
+  <tbody><tr bgcolor="#e0e0e0">
+	<td class="top" width="100%">
+	  <b>Test cases</b>
+</td></tr></tbody></table>
+
+
+</p><p>
+This document contains pointers to files with test cases for your assignment.
+</P><P>
+The file <A HREF="syscall.c"> syscall.c </A> has two new system calls added to it. Previously syscall had only SYS_reboot, now it contains SYS_read and SYS_write already implemented. This file should replace "src/kern/arch/mips/mips/syscall.c"
+</P><P>
+The file <A HREF="sh.c"> sh.c </A> is a simple shell program which makes calls to fork(), execv(), waitpid(), and _exit(). These calls result in "Unknown system call" error. As soon as you implement the system calls, the error will vanish. The shell can take input from the keyboard and outputs to the console using SYS_read and SYS_write. This file replaces "src/bin/sh/sh.c"
+</P>
+<P>
+After adding the sys_read and sys_write, changing the syscall.c and sh.c files, you may compile it following instructions similar to those used for ASST0 
+</P><P>
+To add the sys_read and sys_write functions, trace back how sys_reboot is defined and registered. To compile the newly created shell file (sh.c) go to 
+~/os161/src/bin/sh and make depend, make, and make install. 
+Then from the ~/os161/root type "sys161 kernel" and in your own kernel 
+type "p /bin/sh" to run the newly created shell.
+</P>
+
+
+</span></span>
+
+
