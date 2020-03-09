@@ -186,8 +186,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-3-30" class="date"><b>Week 11</b></td>
   <td class="lecture">Mar 30<br/>
 	<b>Lec 7:</b> Memory management III: adv. PT, virt. memory</td>
-  <td class="deadline">Apr 2<br/>
-	<span class="hwdue"><a href="./proj2.html">Proj 2a</a> due</span></td>
+  <td class="nodue">Apr 2</td>
 </tr>
 <tr> <!-- week of Apr 6 -->
   <td id="2020-4-6" class="date"><b>Week 12</b></td>
