@@ -199,7 +199,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-4-13" class="date"><b>Week 13</b></td>
   <td class="deadline">Apr 13<br/>
 	<b>Lec 9:</b> I/O II: RAID, flash basics<br/>
-		<span class="hwdue"><a href="./proj2.html">Proj 2b</a></span> due</td>
+		<span class="hwdue"><a href="./proj2.html">Proj 2</a></span> due</td>
   <td class="important">Apr 16<br/>
 	<span class="assignment"><a href="./proj3.html">Proj 3</a> out</span></td>
 </tr>
