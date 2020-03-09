@@ -166,7 +166,8 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Mar 9 -->
   <td id="2020-3-9" class="date"><b>Week 8</b></td>
   <td class="holiday">Mar 9<br/>
-	<b>Spring recess</b> (NO CLASS)</td>
+	<b>Spring recess</b> (NO CLASS) <br/>
+		<span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td>
   <td class="holiday">Mar 12<br/>Enjoy or catchup?!</td>
 </tr>
 <tr> <!-- week of Mar 16 -->
