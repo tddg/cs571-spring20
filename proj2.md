@@ -120,38 +120,38 @@ TAKE THAT SERIOUSLY...*
 Include the answers to the code walk-through questions as the first
 part of your design document.  
 
-`kern/userprog`: This directory contains the files that are responsible
-for the loading and running of user-level programs. Currently, the
-only files in the directory are `loadelf.c`, `runprogram.c`, and `uio.c`,
-although you may want to add more of your own during this assignment.
-Understanding these files is the key to getting started with the
-implementation of multiprogramming. Note that to answer some of the
-questions, you will have to look in files outside this directory. 
-
-`loadelf.c`: This file contains the functions responsible for loading
-an ELF executable from the filesystem and into virtual memory space.
-(ELF is the name of the executable format produced by `cs161-gcc`.) Of
-course, at this point this virtual memory space does not provide what
-is normally meant by virtual memory -- although there is translation
-between the addresses that executables "believe" they are using and
-physical addresses, there is no mechanism for providing more memory
-than exists physically. 
-
-`runprogram.c`: This file contains only one function, `runprogram()`,
-which is responsible for running a program from the kernel menu. It
-is a good base for writing the `execv()` system call, but only a base
--- when writing your design doc, you should determine what more is
-required for `execv()` that `runprogram()` does not concern itself with.
-Additionally, once you have designed your process system,
-`runprogram()` should be altered to start processes properly within
-this framework; for example, a program started by `runprogram()` should
-have the standard file descriptors available while it's running. 
-
-`uio.c`: This file contains functions for moving data between kernel
-and user space. Knowing when and how to cross this boundary is
-critical to properly implementing user-level programs, so this is a
-good file to read very carefully. You should also examine the code in
-`lib/copyinout.c`. 
+	`kern/userprog`: This directory contains the files that are responsible
+	for the loading and running of user-level programs. Currently, the
+	only files in the directory are `loadelf.c`, `runprogram.c`, and `uio.c`,
+	although you may want to add more of your own during this assignment.
+	Understanding these files is the key to getting started with the
+	implementation of multiprogramming. Note that to answer some of the
+	questions, you will have to look in files outside this directory. 
+	
+	`loadelf.c`: This file contains the functions responsible for loading
+	an ELF executable from the filesystem and into virtual memory space.
+	(ELF is the name of the executable format produced by `cs161-gcc`.) Of
+	course, at this point this virtual memory space does not provide what
+	is normally meant by virtual memory -- although there is translation
+	between the addresses that executables "believe" they are using and
+	physical addresses, there is no mechanism for providing more memory
+	than exists physically. 
+	
+	`runprogram.c`: This file contains only one function, `runprogram()`,
+	which is responsible for running a program from the kernel menu. It
+	is a good base for writing the `execv()` system call, but only a base
+	-- when writing your design doc, you should determine what more is
+	required for `execv()` that `runprogram()` does not concern itself with.
+	Additionally, once you have designed your process system,
+	`runprogram()` should be altered to start processes properly within
+	this framework; for example, a program started by `runprogram()` should
+	have the standard file descriptors available while it's running. 
+	
+	`uio.c`: This file contains functions for moving data between kernel
+	and user space. Knowing when and how to cross this boundary is
+	critical to properly implementing user-level programs, so this is a
+	good file to read very carefully. You should also examine the code in
+	`lib/copyinout.c`. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Questions**
 
