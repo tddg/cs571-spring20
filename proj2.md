@@ -15,7 +15,7 @@ TBA
 
 ## Resources
 
-[OS/161 syscall slides]({{ site.baseurl }}/lec-os161-syscall.pdf)
+[OS/161 syscall slides]({{ site.baseurl }}/public/lecs/lec-os161-syscall.pdf)
 
 [Userspace system call manual]({{ site.baseurl }}/syscall.html)
 
