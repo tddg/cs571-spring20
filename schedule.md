@@ -211,7 +211,7 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Apr 27 -->
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
   <td class="lecture">Apr 27<br/>
-	<b>Lec 10:</b> File system: interfaces, implementation</td>
+	<b>Lec 11:</b> File system: interfaces, implementation</td>
 	<!--b>Lec 11:</b> File system II: LFS, NFS</td-->
   <td class="nodue">Apr 30</td>
 </tr>
