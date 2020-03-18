@@ -166,38 +166,38 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Mar 9 -->
   <td id="2020-3-9" class="date"><b>Week 8</b></td>
   <td class="holiday">Mar 9<br/>
-	<b>Spring recess</b> (NO CLASS) <br/>
+	<b>Spring Recess</b> (NO CLASS) <br/>
 		<span class="assignment"><a href="./proj2.html">Proj 2</a> out</span></td>
-  <td class="holiday">Mar 12<br/>Enjoy or catchup?!</td>
+  <td class="holiday">Mar 12<br/></td>
 </tr>
 <tr> <!-- week of Mar 16 -->
   <td id="2020-3-16" class="date"><b>Week 9</b></td>
-  <td class="exam">Mar 16<br/>
-	<b>Midterm exam</b></td>
-  <td class="nodue">Mar 19</td>
+  <td class="holiday">Mar 16<br/>
+	<b>Extended Spring Recess</b> (NO CLASS) </td>
+  <td class="holiday">Mar 19</td>
 </tr>
 <tr> <!-- week of Mar 23 -->
   <td id="2020-3-23" class="date"><b>Week 10</b></td>
-  <td class="lecture">Mar 23<br/>
-	<b>Lec 6:</b> Memory management II: paging, TLB</td>
+  <td class="exam">Mar 23<br/>
+	<b>Midterm exam</b></td>
   <td class="nodue">Mar 26</td>
 </tr>
 <tr> <!-- week of Mar 30 -->
   <td id="2020-3-30" class="date"><b>Week 11</b></td>
   <td class="lecture">Mar 30<br/>
-	<b>Lec 7:</b> Memory management III: adv. PT, virt. memory</td>
+	<b>Lec 7:</b> Memory management II: paging, TLB</td>
   <td class="nodue">Apr 2</td>
 </tr>
 <tr> <!-- week of Apr 6 -->
   <td id="2020-4-6" class="date"><b>Week 12</b></td>
   <td class="lecture">Apr 6<br/>
-	<b>Lec 8:</b> I/O I: HDD basics, disk scheduling</td>
+	<b>Lec 8:</b> Memory management III: adv. PT, virt. memory</td>
   <td class="nodue">Apr 9</td>
 </tr>
 <tr> <!-- week of Apr 13 -->
   <td id="2020-4-13" class="date"><b>Week 13</b></td>
   <td class="deadline">Apr 13<br/>
-	<b>Lec 9:</b> I/O II: RAID, flash basics<br/>
+	<b>Lec 9:</b> I/O I: HDD basics, disk scheduling<br/>
 		<span class="hwdue"><a href="./proj2.html">Proj 2</a></span> due</td>
   <td class="important">Apr 16<br/>
 	<span class="assignment"><a href="./proj3.html">Proj 3</a> out</span></td>
@@ -205,13 +205,14 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Apr 20 -->
   <td id="2020-4-20" class="date"><b>Week 14</b></td>
   <td class="lecture">Apr 20<br/>
-	<b>Lec 10:</b> File system I: interfaces, implementation</td>
+	<b>Lec 10:</b> I/O II: RAID, flash basics</td>
   <td class="nodue">Apr 23</td>
 </tr>
 <tr> <!-- week of Apr 27 -->
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
   <td class="lecture">Apr 27<br/>
-	<b>Lec 11:</b> File system II: LFS, NFS</td>
+	<b>Lec 10:</b> File system: interfaces, implementation</td>
+	<!--b>Lec 11:</b> File system II: LFS, NFS</td-->
   <td class="nodue">Apr 30</td>
 </tr>
 <tr> <!-- week of May 4 -->
