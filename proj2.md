@@ -21,6 +21,7 @@ TBA
 
 [Understanding system calls]({{ site.baseurl }}/proj2_understand_syscalls.html)
 
+[Dummy read and write syscalls]({{ site.baseurl }}/sys_rw.c)
 
 
 ## Project organization
