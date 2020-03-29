@@ -185,7 +185,18 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Mar 30 -->
   <td id="2020-3-30" class="date"><b>Week 11</b></td>
   <td class="lecture">Mar 30<br/>
-	<b>Lec 7:</b> Memory management II: paging, TLB</td>
+	<b>Lec 7a:</b> Memory management II: paging [<a href="./public/lecs/lec7a-mem-paging.pdf">slides</a>]
+		[<a href="./public/lecs/lec7a-mem-paging+notes.pdf">slides+notes</a>] 
+		[<a href="https://youtu.be/8smufHihEa8">video7a-1</a>]
+		[<a href="https://youtu.be/epdOZifNd2g">video7a-2</a>],<br/>
+	<b>Lec 7b:</b> Memory management II: TLB [<a href="./public/lecs/lec7b-mem-tlb.pdf">slides</a>]
+		[<a href="./public/lecs/lec7b-mem-tlb+notes.pdf">slides+notes</a>]
+		[<a href="https://youtu.be/VHaPMRdV7As">video7b-1</a>]
+		[<a href="https://youtu.be/YyCEdMWbF3Y">video7b-2</a>]
+		[<a href="https://youtu.be/vqlO_cNHUDw">video7b-3</a>],<br/>
+	<b>Lec 7c:</b> Proj 2 (OS/161 syscall+sched) [<a href="./public/lecs/lec-os161-syscall.pdf">slides</a>]
+		[<a href="https://youtu.be/VDoWHNvEWEo">video</a>]
+	</td>
   <td class="nodue">Apr 2</td>
 </tr>
 <tr> <!-- week of Apr 6 -->
