@@ -513,8 +513,8 @@ file.
 * A high level description of how you are approaching the problem. (4 pts)
 
 * A detailed description of the implementation (e.g., new structures,
-* why they were created, what they are encapsulating, what problems
-* they solve). (6 pts)
+why they were created, what they are encapsulating, what problems
+they solve). (6 pts)
 
 * A discussion of the pros and cons of your approach. (6 pts)
 
