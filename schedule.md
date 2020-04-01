@@ -195,7 +195,9 @@ The course schedule is tentative and subject to change.
 		[<a href="https://youtu.be/YyCEdMWbF3Y">video7b-2</a>]
 		[<a href="https://youtu.be/vqlO_cNHUDw">video7b-3</a>],<br/>
 	<b>Lec 7c:</b> Proj 2 (OS/161 syscall+sched) [<a href="./public/lecs/lec-os161-syscall.pdf">slides</a>]
-		[<a href="https://youtu.be/VDoWHNvEWEo">video</a>]
+		[<a href="https://youtu.be/VDoWHNvEWEo">video</a>] <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-paging.pdf">Paging</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-paging.pdf">TLB</a>
 	</td>
   <td class="nodue">Apr 2</td>
 </tr>
