@@ -205,7 +205,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-4-6" class="date"><b>Week 12</b></td>
   <td class="lecture">Apr 6<br/>
 	<b>Lec 8a:</b> Memory management III: advanced PT [<a href="./public/lecs/lec8a-mem-adv-pt.pdf">slides</a>]
-		[<a href="./public/lecs/lec8a-mem-adv+notes.pdf">slides+notes</a>]
+		[<a href="./public/lecs/lec8a-mem-adv-pt+notes.pdf">slides+notes</a>]
 		[<a href="https://youtu.be/d5CJQj-td0g">video8a-1</a>]
 		[<a href="https://youtu.be/s0ZJdxff97Q">video8a-2</a>],<br/>
 	<b>Lec 8b:</b> Memory management III: page faults and swapping [<a href="./public/lecs/lec8b-mem-swapping.pdf">slides</a>]
