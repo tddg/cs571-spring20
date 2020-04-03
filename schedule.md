@@ -204,7 +204,17 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Apr 6 -->
   <td id="2020-4-6" class="date"><b>Week 12</b></td>
   <td class="lecture">Apr 6<br/>
-	<b>Lec 8:</b> Memory management III: adv. PT, virt. memory</td>
+	<b>Lec 8a:</b> Memory management III: advanced PT [<a href="./public/lecs/lec8a-mem-adv-pt.pdf">slides</a>]
+		[<a href="./public/lecs/lec8a-mem-adv+notes.pdf">slides+notes</a>]
+		[<a href="https://youtu.be/d5CJQj-td0g">video8a-1</a>]
+		[<a href="https://youtu.be/s0ZJdxff97Q">video8a-2</a>],<br/>
+	<b>Lec 8b:</b> Memory management III: page faults and swapping [<a href="./public/lecs/lec8b-mem-swapping.pdf">slides</a>]
+		[<a href="./public/lecs/lec8b-mem-swapping+notes.pdf">slides+notes</a>]
+		[<a href="https://youtu.be/DCXDUdTd4AA">video8b-1</a>]
+		[<a href="https://youtu.be/nN-KIq40Fq8">video8b-2</a>], <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-smalltables.pdf">Small tables</a> and
+		<a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/vm-beyondphys.pdf">Swapping mechanisms</a>
+	</td>
   <td class="nodue">Apr 9</td>
 </tr>
 <tr> <!-- week of Apr 13 -->
