@@ -234,7 +234,7 @@ The course schedule is tentative and subject to change.
 		[<a href="./public/lecs/lec8c-mem-caching-misc+notes.pdf">misc.+notes</a>]
 		[<a href="https://youtu.be/2ggDXkU9AZ4">video8c-4</a>] <br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf">Page replacement policies</a><br/>
-	<b>Lec 9a:</b> I/O I: HDD basics, disk scheduling<br/> 
+	<b>Lec 9a:</b> I/O I: I/O basics<br/> 
 		[<a href="./public/lecs/lec9a-storage-io.pdf">io</a>]
 		[<a href="./public/lecs/lec9a-storage-io+notes.pdf">io+notes</a>]
 		[<a href="https://youtu.be/WLH9a85x7zI">video9a-1</a>] <br/>
