@@ -219,17 +219,36 @@ The course schedule is tentative and subject to change.
 </tr>
 <tr> <!-- week of Apr 13 -->
   <td id="2020-4-13" class="date"><b>Week 13</b></td>
-  <td class="deadline">Apr 13<br/>
-	<b>Lec 9:</b> I/O I: HDD basics, disk scheduling<br/>
-		<span class="hwdue"><a href="./proj2.html">Proj 2</a></span> due</td>
-  <td class="important">Apr 16<br/>
-	<span class="assignment"><a href="./proj3.html">Proj 3</a> out</span></td>
+  <td class="lecture">Apr 13<br/>
+	<b>Lec 8c:</b> Memory management IV: page replacement policies 
+		[<a href="./public/lecs/lec8c-mem-caching-fifo+random.pdf">fifo+random</a>]
+		[<a href="./public/lecs/lec8c-mem-caching-fifo+random+notes.pdf">fifo+random+notes</a>]
+		[<a href="https://youtu.be/OH2_55fkjZs">video8c-1</a>] <br/>
+		[<a href="./public/lecs/lec8c-mem-caching-belady-offline.pdf">belady</a>]
+		[<a href="./public/lecs/lec8c-mem-caching-belady-offline+notes.pdf">belady+notes</a>]
+		[<a href="https://youtu.be/tDoflsU9htY">video8c-2</a>] <br/>
+		[<a href="./public/lecs/lec8c-mem-caching-LRU+clock.pdf">lru+clock</a>]
+		[<a href="./public/lecs/lec8c-mem-caching-LRU+clock+notes.pdf">lru+clock+notes</a>]
+		[<a href="https://youtu.be/wfkhk345xr0">video8c-3</a>] <br/>
+		[<a href="./public/lecs/lec8c-mem-caching-misc.pdf">misc.</a>]
+		[<a href="./public/lecs/lec8c-mem-caching-misc+notes.pdf">misc.+notes</a>]
+		[<a href="https://youtu.be/2ggDXkU9AZ4">video8c-4</a>] <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys-policy.pdf">Page replacement policies</a><br/>
+	<b>Lec 9a:</b> I/O I: HDD basics, disk scheduling<br/> 
+		[<a href="./public/lecs/lec9a-storage-io.pdf">io</a>]
+		[<a href="./public/lecs/lec9a-storage-io+notes.pdf">io+notes</a>]
+		[<a href="https://youtu.be/WLH9a85x7zI">video9a-1</a>] <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-devices.pdf">I/O devices</a>
+	</td>
+  <td class="nodue">Apr 16</td>
 </tr>
 <tr> <!-- week of Apr 20 -->
   <td id="2020-4-20" class="date"><b>Week 14</b></td>
-  <td class="lecture">Apr 20<br/>
-	<b>Lec 10:</b> I/O II: RAID, flash basics</td>
-  <td class="nodue">Apr 23</td>
+  <td class="deadline">Apr 20<br/>
+	<b>Lec 10:</b> I/O II: RAID, flash basics <br/>
+		<span class="hwdue"><a href="./proj2.html">Proj 2</a></span> due</td>
+  <td class="important">Apr 23<br/>
+	<span class="assignment"><a href="./proj3.html">Proj 3</a> out</span></td>
 </tr>
 <tr> <!-- week of Apr 27 -->
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
