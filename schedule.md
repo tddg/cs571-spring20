@@ -260,7 +260,7 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Apr 27 -->
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
   <td class="lecture">Apr 27<br/>
-	<b>Lec 11:</b> I/O III: RAID, flash basics </td>
+	<b>Lec 9d:</b> I/O IV: RAID, flash basics </td>
 	<!--b>Lec 11:</b> File system II: LFS, NFS</td-->
   <td class="nodue">Apr 30</td>
 </tr>
