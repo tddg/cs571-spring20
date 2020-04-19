@@ -134,8 +134,9 @@ Make sure to grant Abhishek a role of **"Developer"** or **"Maintainer"**.
 "Guest" role permission does not grant access for some reason.
 You can provide extra instructions about how your code can run on 
 any other computers that you used for the measurement.
-**NOTE:** Make sure, with the instructions provided, your code
-can be compiled with no error and is runnable on Zeus.
+**NOTE:** You need to make sure, with your instructions provided in
+your README, your code can be compiled with no error and is runnable
+on Zeus.
 
 2. Commit all your changes (including document, code, README, and
 Makefile if any) by typing:
