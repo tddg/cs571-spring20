@@ -15,7 +15,7 @@ The idea is based on work by Saavedra-Barrera ([paper](https://www2.eecs.berkele
 simple but beautiful method to measure numerous aspects of cache hierarchies,
 all with a very simple user-level program. Read his work for more details.
 
-The basic idea is t access some number of pages within a large data
+The basic idea is to access some number of pages within a large data
 structure (e.g., an array) and to time those accesses. For example,
 let's say the TLB size of a machine happens to be 4 (which would be
 very small, but useful for the purpose of this discussion). If you
