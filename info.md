@@ -49,7 +49,7 @@ Here is a tentative list of projects:
 * Project 1b: OS/161 synchronization;
 * Project 2a: OS/161 system calls;
 * Project 2b: OS/161 multi-level feedback queue scheduling;
-* Project 3: Implement a MapReduce application using C.
+* Project 3: ~~Implement a MapReduce application using C.~~ --> TLB measurement.
 
 ## Grading policy
 
