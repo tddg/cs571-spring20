@@ -120,7 +120,7 @@ new **private** repository named `TLB measurement`. The submission
 will consist of whatever is contained in your **private** `TLB
 measurement` repository. 
 
-0. Prepare a document. Answer to the above questions. And then
+0. Prepare a document. Answer the above questions. And then
 provide a high-level description of how you approach the problem
 (your measurement methodology) and a detailed description of the
 implementation.  Your document should include the TLB access cost
