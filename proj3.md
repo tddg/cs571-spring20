@@ -6,7 +6,7 @@ permalink: /proj3.html
 
 ## Important Dates and Other Stuff
 
-**Due** Thursday, 05/04, midnight.
+**Due** Thursday, 05/07, midnight.
 
 **This project is to be done by yourself.**
 
