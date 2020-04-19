@@ -11,7 +11,7 @@ permalink: /proj3.html
 **This project is to be done by yourself.**
 
 In this project, you are to measure the size and cost of accessing a TLB. 
-The idea is based on work by Saavedra-Barrera (...), who developed a 
+The idea is based on work by Saavedra-Barrera ([paper](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/6137.html)), who developed a 
 simple but beautiful method to measure numerous aspects of cache hierarchies,
 all with a very simple user-level program. Read his work for more details.
 
