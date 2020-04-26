@@ -290,7 +290,7 @@ The course schedule is tentative and subject to change.
   <td class="nodue">May 14</td>
 </tr>
 <tr> <!-- week of May 18 -->
-  <td id="2020-5-18" class="date"><b>Week 17</b></td>
+  <td id="2020-5-18" class="date"><b>Week 18</b></td>
   <td class="exam">May 18<br/>
 	<b>Final exam:</b> 7:20 pm - 10:00 pm</td>
   <td class="nodue">May 21</td>
