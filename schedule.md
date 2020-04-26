@@ -261,7 +261,7 @@ The course schedule is tentative and subject to change.
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
   <td class="lecture">Apr 27<br/>
 	<b>Lec 10a:</b> I/O IV: Flash basics [<a href="./public/lecs/lec10a-storage-flash.pdf">slides</a>]
-		[<a href="./public/lecs/lec10-storage-flash+notes.pdf">slides+notes</a>]
+		[<a href="./public/lecs/lec10a-storage-flash+notes.pdf">slides+notes</a>]<br/>
 		[<a href="https://youtu.be/HKNxxR40Txg">video10a-1</a>]
 		[<a href="https://youtu.be/EAvJwdlND2Y">video10a-2</a>]
 		[<a href="https://youtu.be/prgYEVpyQ2A">video10a-3</a>], <br/>
