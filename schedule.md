@@ -260,7 +260,20 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of Apr 27 -->
   <td id="2020-4-27" class="date"><b>Week 15</b></td>
   <td class="lecture">Apr 27<br/>
-	<b>Lec 9d:</b> I/O IV: RAID, flash basics </td>
+	<b>Lec 10a:</b> I/O IV: Flash basics [<a href="./public/lecs/lec10a-storage-flash.pdf">slides</a>]
+		[<a href="./public/lecs/lec10-storage-flash+notes.pdf">slides+notes</a>]
+		[<a href="https://youtu.be/HKNxxR40Txg">video10a-1</a>]
+		[<a href="https://youtu.be/EAvJwdlND2Y">video10a-2</a>]
+		[<a href="https://youtu.be/prgYEVpyQ2A">video10a-3</a>], <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-ssd.pdf">Flash SSDs</a><br/>
+	<b>Lec 10b:</b> I/O V: RAID [<a href="./public/lecs/lec10b-storage-raid.pdf">slides</a>]
+		[<a href="./public/lecs/lec10b-storage-raid+notes.pdf">slides+notes</a>] <br/>
+		[<a href="https://youtu.be/pmD2oW3p1Mc">video10b-1-raid-basics</a>]
+		[<a href="https://youtu.be/oYbiEzHvrGw">video10b-2-raid0</a>]
+		[<a href="https://youtu.be/DTNjMvgcPks">video10b-3-raid1</a>]
+		[<a href="https://youtu.be/kuhSEOgx4xY">video10b-4-raid4</a>]
+		[<a href="https://youtu.be/ZPashI_oznA">video10b-5-raid5</a>],<br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-raid.pdf">RAID</a> </td>
 	<!--b>Lec 11:</b> File system II: LFS, NFS</td-->
   <td class="nodue">Apr 30</td>
 </tr>
