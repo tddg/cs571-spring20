@@ -274,21 +274,26 @@ The course schedule is tentative and subject to change.
 		[<a href="https://youtu.be/kuhSEOgx4xY">video10b-4-raid4</a>]
 		[<a href="https://youtu.be/ZPashI_oznA">video10b-5-raid5</a>],<br/>
 	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-raid.pdf">RAID</a> </td>
-	<!--b>Lec 11:</b> File system II: LFS, NFS</td-->
   <td class="nodue">Apr 30</td>
 </tr>
 <tr> <!-- week of May 4 -->
   <td id="2020-5-4" class="date"><b>Week 16</b></td>
   <td class="lecture">May 4<br/>
-	<b>Final review</b></td>
+	<b>Lec 11:</b> File system: APIs and implementations</td>
   <td class="deadline">May 7<br/>
 	<span class="hwdue"><a href="./proj3.html">Proj 3</a> due</span></td>
 </tr>
 <tr> <!-- week of May 11 -->
   <td id="2020-5-11" class="date"><b>Week 17</b></td>
   <td class="exam">May 11<br/>
-	<b>Final exam:</b> 7:20 pm - 10:00 pm</td>
+	<b>Final review</b></td>
   <td class="nodue">May 14</td>
+</tr>
+<tr> <!-- week of May 18 -->
+  <td id="2020-5-18" class="date"><b>Week 17</b></td>
+  <td class="exam">May 18<br/>
+	<b>Final exam:</b> 7:20 pm - 10:00 pm</td>
+  <td class="nodue">May 21</td>
 </tr>
 
 </table>
