@@ -279,7 +279,16 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of May 4 -->
   <td id="2020-5-4" class="date"><b>Week 16</b></td>
   <td class="lecture">May 4<br/>
-	<b>Lec 11:</b> File system: APIs and implementations</td>
+	<b>Lec 11a:</b> File system I: APIs [<a href="./public/lecs/lec11a-fs-api.pdf">slides</a>]
+		[<a href="./public/lecs/lec11a-fs-api+notes.pdf">slides+notes</a>]<br/>
+		[<a href="https://youtu.be/_JJrd2PJpLI">video11a-1</a>]
+		[<a href="https://youtu.be/QufJoI75C-8">video11a-2</a>], <br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-intro.pdf">File system intro</a><br/>
+	<b>Lec 11b:</b> File system II: implementation [<a href="./public/lecs/lec11b-fs-impl.pdf">slides</a>]
+		[<a href="./public/lecs/lec11b-fs-impl+notes.pdf">slides+notes</a>]
+		[<a href="https://youtu.be/jZ4eKevY1KA">video11b-1</a>]
+		[<a href="https://youtu.be/oQI4Ja83O9Y">video11b-2</a>],<br/>
+	<b>Reading:</b> <a href="http://pages.cs.wisc.edu/~remzi/Classes/537/Spring2016/Book/file-implementation.pdf">File system implementation</a> </td>
   <td class="deadline">May 7<br/>
 	<span class="hwdue"><a href="./proj3.html">Proj 3</a> due</span></td>
 </tr>
