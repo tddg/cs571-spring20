@@ -295,7 +295,7 @@ The course schedule is tentative and subject to change.
 <tr> <!-- week of May 11 -->
   <td id="2020-5-11" class="date"><b>Week 17</b></td>
   <td class="lecture">May 11<br/>
-	<b>Final review</b></td>
+	<b>Final review:</b> [<a href="./public/lecs/final-review.pdf">slides</a>]</td>
   <td class="nodue">May 14</td>
 </tr>
 <tr> <!-- week of May 18 -->
